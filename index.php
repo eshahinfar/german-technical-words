@@ -781,7 +781,7 @@ function headerHtml(?array $user): void { ?>
   }
 
   .card{
-    background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(243,246,251,.98));
+    background:linear-gradient(180deg, var(--card), var(--card2));
     border:1px solid var(--stroke);
     border-radius:var(--radius2);
     padding:14px;
