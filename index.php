@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 session_start();
 
 // -------------------- CONFIG --------------------
@@ -427,18 +426,18 @@ function svgLine(array $vals, int $w=900, int $h=220, int $pad=20): string {
   }
   $poly = implode(" ", $pts);
   $svg = '<svg viewBox="0 0 '.$w.' '.$h.'" width="100%" height="'.$h.'" role="img" aria-label="progress chart">';
-  $svg .= '<rect x="0" y="0" width="'.$w.'" height="'.$h.'" rx="14" fill="rgba(22,36,57,.04)" stroke="rgba(22,36,57,.12)"/>';
+  $svg .= '<rect x="0" y="0" width="'.$w.'" height="'.$h.'" rx="14" fill="var(--card2)" stroke="var(--stroke)"/>';
   // grid lines
   for($g=0;$g<=4;$g++){
     $yy = $pad + ($h-2*$pad)*($g/4);
-    $svg .= '<line x1="'.$pad.'" y1="'.$yy.'" x2="'.($w-$pad).'" y2="'.$yy.'" stroke="rgba(22,36,57,.10)" stroke-width="1"/>';
+    $svg .= '<line x1="'.$pad.'" y1="'.$yy.'" x2="'.($w-$pad).'" y2="'.$yy.'" stroke="var(--stroke)" stroke-width="1"/>';
   }
-  $svg .= '<polyline fill="none" stroke="rgba(43,108,255,.85)" stroke-width="3" points="'.$poly.'"/>';
+  $svg .= '<polyline fill="none" stroke="var(--brand)" stroke-width="3" points="'.$poly.'"/>';
   // end dot
   $last = end($pts);
   if($last){
     [$lx,$ly] = explode(",",$last);
-    $svg .= '<circle cx="'.$lx.'" cy="'.$ly.'" r="5" fill="rgba(43,108,255,.95)"/>';
+    $svg .= '<circle cx="'.$lx.'" cy="'.$ly.'" r="5" fill="var(--brand)"/>';
   }
   $svg .= '</svg>';
   return $svg;
@@ -660,6 +659,22 @@ function headerHtml(?array $user): void { ?>
     --radius:18px;
     --radius2:24px;
   }
+  html[data-theme="dark"]{
+    --bg0:#070a12;
+    --bg1:#0b1220;
+    --card:rgba(255,255,255,.06);
+    --card2:rgba(255,255,255,.08);
+    --stroke:rgba(255,255,255,.12);
+    --stroke2:rgba(255,255,255,.18);
+    --text:#eaf0ff;
+    --muted:rgba(234,240,255,.75);
+    --muted2:rgba(234,240,255,.55);
+    --brand:#9ec1ff;
+    --brand2:#6ea8ff;
+    --ok:#7CFFB2;
+    --bad:#ff8ea1;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
 
   *{box-sizing:border-box}
   html,body{height:100%}
@@ -675,6 +690,12 @@ function headerHtml(?array $user): void { ?>
     -moz-osx-font-smoothing: grayscale;
     line-height:1.5;
   }
+  html[data-theme="dark"] body{
+    background:
+      radial-gradient(1200px 700px at 20% -10%, rgba(110,168,255,.25), transparent 60%),
+      radial-gradient(1000px 600px at 90% 0%, rgba(124,255,178,.14), transparent 55%),
+      linear-gradient(180deg, var(--bg0), var(--bg1) 35%, var(--bg1));
+  }
 
   a{color:var(--brand); text-decoration:none}
   a:hover{text-decoration:underline}
@@ -688,6 +709,9 @@ function headerHtml(?array $user): void { ?>
     backdrop-filter:saturate(140%) blur(10px);
     background:rgba(255,255,255,.85);
     border-bottom:1px solid var(--stroke);
+  }
+  html[data-theme="dark"] .topbar{
+    background:rgba(7,10,18,.55);
   }
   .topbar-inner{max-width:1100px;margin:0 auto;padding:10px 14px}
   @media(max-width:480px){ .topbar-inner{padding:10px} }
@@ -732,6 +756,19 @@ function headerHtml(?array $user): void { ?>
     color:var(--text);
     cursor:pointer;
   }
+  .themeToggle{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:8px 12px;
+    border-radius:999px;
+    border:1px solid var(--stroke);
+    background:var(--card2);
+    color:var(--text);
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  .themeToggle:hover{background:#ffffff}
+  html[data-theme="dark"] .themeToggle:hover{background:rgba(255,255,255,.10)}
   .navMenu{
     display:flex;
   }
@@ -784,6 +821,7 @@ function headerHtml(?array $user): void { ?>
     font-weight:650;
   }
   .btn2:hover{background:#ffffff}
+  html[data-theme="dark"] .btn2:hover{background:rgba(255,255,255,.10)}
   .btn2:active{transform:translateY(1px)}
   .btn2:focus-visible{outline:3px solid rgba(43,108,255,.35); outline-offset:2px}
 
@@ -804,7 +842,7 @@ function headerHtml(?array $user): void { ?>
     padding:12px 14px;
     border-radius:16px;
     border:1px solid var(--stroke);
-    background:#ffffff;
+    background:var(--card);
     color:var(--text);
     outline:none;
   }
@@ -874,6 +912,10 @@ function headerHtml(?array $user): void { ?>
           <div class="badge">New/day: <?=h((string)$user['new_per_day'])?></div>
         <?php endif; ?>
       </div>
+      <button class="themeToggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span id="themeIcon" aria-hidden="true">🌞</span>
+        <span id="themeLabel">Light</span>
+      </button>
       <?php if($user): ?>
       <button class="navToggle" type="button" onclick="toggleNav()">☰</button>
       <div id="navMenu" class="navMenu">
@@ -906,6 +948,21 @@ function toggleNav(){
   if(!m) return;
   m.classList.toggle('open');
 }
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  const icon = document.getElementById('themeIcon');
+  const label = document.getElementById('themeLabel');
+  if (icon) icon.textContent = theme === 'dark' ? '🌙' : '🌞';
+  if (label) label.textContent = theme === 'dark' ? 'Dark' : 'Light';
+}
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', next);
+  applyTheme(next);
+}
+const savedTheme = localStorage.getItem('theme') || 'light';
+applyTheme(savedTheme);
 function speak(text, lang){
   if(!('speechSynthesis' in window)) { alert('Speech not supported in this browser.'); return; }
   const u = new SpeechSynthesisUtterance(text); u.lang = lang;
