@@ -1061,7 +1061,7 @@ if($page==='learned'){
     $c=$cardById[$cid];
     if($topic!==null && $c['topic']!==$topic) continue;
     if($q!==''){
-      $hay=normalize_common($c['german'].' '.$c['english'].' '.$c['definition'].' '.($c['definition_fa'] ?? '').' '.($c['meaning_fa'] ?? ''));
+      $hay=normalize_common($c['german'].' '.$c['english'].' '.$c['definition'].' '.($c['meaning_fa'] ?? ''));
       if(!str_contains($hay, normalize_common($q))) continue;
     }
     $items[]=['c'=>$c,'p'=>$r];
@@ -1100,7 +1100,6 @@ if($page==='learned'){
       <div><b>English:</b> <?=h($c['english'])?></div>
       <?php if($showDefDe): ?><div class="muted" style="margin-top:6px"><b>DE:</b> <?=h($c['definition'])?></div><?php endif; ?>
       <?php if($showDefFa): ?><div class="muted" style="margin-top:6px"><b>Meaning (FA):</b> <?=h((string)($c['meaning_fa'] ?? ''))?></div><?php endif; ?>
-      <?php if($showDefFa): ?><div class="muted" style="margin-top:6px"><b>Definition (FA):</b> <?=h((string)($c['definition_fa'] ?? ''))?></div><?php endif; ?>
       <details style="margin-top:10px"><summary class="badge" style="cursor:pointer;display:inline-block">Example</summary>
         <div class="muted" style="margin-top:8px"><?=h($c['sentence'])?></div>
       </details>
@@ -1180,7 +1179,6 @@ if($page==='study'){
         <div><b>English:</b> <?=h($c['english'])?></div>
         <?php if($showDefDe): ?><div style="margin-top:8px"><b>Definition (DE):</b> <?=h($c['definition'])?></div><?php endif; ?>
         <?php if($showDefFa): ?><div style="margin-top:8px"><b>Meaning (FA):</b> <?=h((string)($c['meaning_fa'] ?? ''))?></div><?php endif; ?>
-        <?php if($showDefFa): ?><div style="margin-top:8px"><b>Definition (FA):</b> <?=h((string)($c['definition_fa'] ?? ''))?></div><?php endif; ?>
         <div style="margin-top:8px"><b>Example:</b> <?=h($c['sentence'])?></div>
         <div class="hr"></div>
         <div class="muted mini">Anki-style review</div>
@@ -1269,7 +1267,6 @@ if($page==='quiz'){
       <details style="margin-top:10px"><summary class="badge" style="cursor:pointer;display:inline-block">Hint</summary>
         <?php if($showDefDe): ?><div class="muted" style="margin-top:8px"><b>DE:</b> <?=h($card['definition'])?></div><?php endif; ?>
         <?php if($showDefFa): ?><div class="muted" style="margin-top:8px"><b>Meaning (FA):</b> <?=h((string)($card['meaning_fa'] ?? ''))?></div><?php endif; ?>
-        <?php if($showDefFa): ?><div class="muted" style="margin-top:8px"><b>Definition (FA):</b> <?=h((string)($card['definition_fa'] ?? ''))?></div><?php endif; ?>
         <div class="muted" style="margin-top:8px"><?=h($card['sentence'])?></div>
       </details>
 
