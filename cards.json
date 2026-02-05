@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "german": "Schleifen",
+    "english": "Grinding",
+    "definition": "Schleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifen (Grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 2,
+    "german": "Rundschleifen",
+    "english": "Cylindrical grinding",
+    "definition": "Rundschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Rundschleifen (Cylindrical grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 3,
+    "german": "Außenrundschleifen",
+    "english": "External cylindrical grinding",
+    "definition": "Außenrundschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Außenrundschleifen (External cylindrical grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 4,
+    "german": "Innenrundschleifen",
+    "english": "Internal cylindrical grinding",
+    "definition": "Innenrundschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Innenrundschleifen (Internal cylindrical grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 5,
+    "german": "Flachschleifen",
+    "english": "Surface grinding",
+    "definition": "Flachschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Flachschleifen (Surface grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 6,
+    "german": "Profilschleifen",
+    "english": "Profile grinding",
+    "definition": "Profilschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Profilschleifen (Profile grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 7,
+    "german": "Zahnschleifen",
+    "english": "Gear grinding",
+    "definition": "Zahnschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "Die Auslegung berücksichtigt Zahnschleifen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 8,
+    "german": "Wälzschleifen",
+    "english": "Generating grinding",
+    "definition": "Wälzschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Wälzschleifen (Generating grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 9,
+    "german": "Formschleifen",
+    "english": "Form grinding",
+    "definition": "Formschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Formschleifen (Form grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 10,
+    "german": "Tiefschleifen",
+    "english": "Creep-feed grinding",
+    "definition": "Tiefschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Tiefschleifen (Creep-feed grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 11,
+    "german": "Planschleifen",
+    "english": "Face grinding",
+    "definition": "Planschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Planschleifen (Face grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 12,
+    "german": "Werkzeugschleifen",
+    "english": "Tool grinding",
+    "definition": "Werkzeugschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Werkzeugschleifen (Tool grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 13,
+    "german": "Hochgeschwindigkeitsschleifen",
+    "english": "High-speed grinding",
+    "definition": "Hochgeschwindigkeitsschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Hochgeschwindigkeitsschleifen (High-speed grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 14,
+    "german": "Hartschleifen",
+    "english": "Hard grinding",
+    "definition": "Hartschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Hartschleifen (Hard grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 15,
+    "german": "Schleifmaschine",
+    "english": "Grinding machine",
+    "definition": "Schleifmaschine bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifmaschine (Grinding machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 16,
+    "german": "Rundschleifmaschine",
+    "english": "Cylindrical grinding machine",
+    "definition": "Rundschleifmaschine bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Rundschleifmaschine (Cylindrical grinding machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 17,
+    "german": "Flachschleifmaschine",
+    "english": "Surface grinding machine",
+    "definition": "Flachschleifmaschine bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Flachschleifmaschine (Surface grinding machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 18,
+    "german": "Werkzeugschleifmaschine",
+    "english": "Tool grinding machine",
+    "definition": "Werkzeugschleifmaschine bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Werkzeugschleifmaschine (Tool grinding machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 19,
+    "german": "CNC-Schleifmaschine",
+    "english": "CNC grinding machine",
+    "definition": "CNC-Schleifmaschine bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird CNC-Schleifmaschine (CNC grinding machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 20,
+    "german": "Schleifspindel",
+    "english": "Grinding spindle",
+    "definition": "Schleifspindel bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifspindel (Grinding spindle) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 21,
+    "german": "Spindellager",
+    "english": "Spindle bearing",
+    "definition": "Spindellager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Spindellager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 22,
+    "german": "Maschinenbett",
+    "english": "Machine bed",
+    "definition": "Maschinenbett ist ein technischer Begriff; auf Englisch: Machine bed.",
+    "sentence": "In der Praxis wird Maschinenbett (Machine bed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 23,
+    "german": "Schleiftisch",
+    "english": "Grinding table",
+    "definition": "Schleiftisch bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleiftisch (Grinding table) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 24,
+    "german": "Führungsbahn",
+    "english": "Guideway",
+    "definition": "Führungsbahn ist ein technischer Begriff; auf Englisch: Guideway.",
+    "sentence": "In der Praxis wird Führungsbahn (Guideway) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 25,
+    "german": "Schleifscheibe",
+    "english": "Grinding wheel",
+    "definition": "Schleifscheibe bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifscheibe (Grinding wheel) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 26,
+    "german": "Schleifmittel",
+    "english": "Abrasive",
+    "definition": "Schleifmittel bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifmittel (Abrasive) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 27,
+    "german": "Schleifkorn",
+    "english": "Abrasive grain",
+    "definition": "Schleifkorn bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifkorn (Abrasive grain) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 28,
+    "german": "Korngröße",
+    "english": "Grit size",
+    "definition": "Korngröße ist ein technischer Begriff; auf Englisch: Grit size.",
+    "sentence": "In der Praxis wird Korngröße (Grit size) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 29,
+    "german": "Kornart",
+    "english": "Abrasive type",
+    "definition": "Kornart bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Kornart (Abrasive type) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 30,
+    "german": "Korund",
+    "english": "Aluminum oxide",
+    "definition": "Korund ist ein technischer Begriff; auf Englisch: Aluminum oxide.",
+    "sentence": "In der Praxis wird Korund (Aluminum oxide) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 31,
+    "german": "Siliziumkarbid",
+    "english": "Silicon carbide",
+    "definition": "Siliziumkarbid ist ein technischer Begriff; auf Englisch: Silicon carbide.",
+    "sentence": "In der Praxis wird Siliziumkarbid (Silicon carbide) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 32,
+    "german": "CBN",
+    "english": "Cubic boron nitride",
+    "definition": "CBN ist ein technischer Begriff; auf Englisch: Cubic boron nitride.",
+    "sentence": "In der Praxis wird CBN (Cubic boron nitride) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 33,
+    "german": "Diamantschleifscheibe",
+    "english": "Diamond grinding wheel",
+    "definition": "Diamantschleifscheibe bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Diamantschleifscheibe (Diamond grinding wheel) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 34,
+    "german": "Kornbindung",
+    "english": "Bond",
+    "definition": "Kornbindung ist ein technischer Begriff; auf Englisch: Bond.",
+    "sentence": "In der Praxis wird Kornbindung (Bond) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 35,
+    "german": "Keramische",
+    "english": "Bindung Vitrified bond",
+    "definition": "Keramische ist ein technischer Begriff; auf Englisch: Bindung Vitrified bond.",
+    "sentence": "In der Praxis wird Keramische (Bindung Vitrified bond) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 36,
+    "german": "Kunstharzbindung",
+    "english": "Resin bond",
+    "definition": "Kunstharzbindung ist ein technischer Begriff; auf Englisch: Resin bond.",
+    "sentence": "In der Praxis wird Kunstharzbindung (Resin bond) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 37,
+    "german": "Metallbindung",
+    "english": "Metal bond",
+    "definition": "Metallbindung ist ein technischer Begriff; auf Englisch: Metal bond.",
+    "sentence": "In der Praxis wird Metallbindung (Metal bond) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 38,
+    "german": "Porosität",
+    "english": "Porosity",
+    "definition": "Porosität ist ein technischer Begriff; auf Englisch: Porosity.",
+    "sentence": "In der Praxis wird Porosität (Porosity) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 39,
+    "german": "Scheibenhärte",
+    "english": "Wheel hardness",
+    "definition": "Scheibenhärte bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Scheibenhärte (Wheel hardness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 40,
+    "german": "Scheibenstruktur",
+    "english": "Wheel structure",
+    "definition": "Scheibenstruktur bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Scheibenstruktur (Wheel structure) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 41,
+    "german": "Abrichten",
+    "english": "Dressing",
+    "definition": "Abrichten bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Abrichten (Dressing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 42,
+    "german": "Abrichtwerkzeug",
+    "english": "Dressing tool",
+    "definition": "Abrichtwerkzeug bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Abrichtwerkzeug (Dressing tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 43,
+    "german": "Diamantabrichter",
+    "english": "Diamond dresser",
+    "definition": "Diamantabrichter ist ein technischer Begriff; auf Englisch: Diamond dresser.",
+    "sentence": "In der Praxis wird Diamantabrichter (Diamond dresser) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 44,
+    "german": "Abrichtrolle",
+    "english": "Dressing roller",
+    "definition": "Abrichtrolle bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Abrichtrolle (Dressing roller) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 45,
+    "german": "Abrichttiefe",
+    "english": "Dressing depth",
+    "definition": "Abrichttiefe bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Abrichttiefe (Dressing depth) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 46,
+    "german": "Abrichtvorschub",
+    "english": "Dressing feed",
+    "definition": "Abrichtvorschub bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Abrichtvorschub (Dressing feed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 47,
+    "german": "Schärfen",
+    "english": "Sharpening",
+    "definition": "Schärfen ist ein technischer Begriff; auf Englisch: Sharpening.",
+    "sentence": "In der Praxis wird Schärfen (Sharpening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 48,
+    "german": "Profilabrichten",
+    "english": "Profile dressing",
+    "definition": "Profilabrichten bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Profilabrichten (Profile dressing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 49,
+    "german": "Schnittgeschwindigkeit",
+    "english": "Cutting speed",
+    "definition": "Schnittgeschwindigkeit ist ein technischer Begriff; auf Englisch: Cutting speed.",
+    "sentence": "In der Praxis wird Schnittgeschwindigkeit (Cutting speed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 50,
+    "german": "Umfangsgeschwindigkeit",
+    "english": "Peripheral speed",
+    "definition": "Umfangsgeschwindigkeit ist ein technischer Begriff; auf Englisch: Peripheral speed.",
+    "sentence": "In der Praxis wird Umfangsgeschwindigkeit (Peripheral speed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 51,
+    "german": "Vorschub",
+    "english": "Feed rate",
+    "definition": "Vorschub ist ein technischer Begriff; auf Englisch: Feed rate.",
+    "sentence": "In der Praxis wird Vorschub (Feed rate) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 52,
+    "german": "Zustelltiefe",
+    "english": "Infeed depth",
+    "definition": "Zustelltiefe ist ein technischer Begriff; auf Englisch: Infeed depth.",
+    "sentence": "In der Praxis wird Zustelltiefe (Infeed depth) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 53,
+    "german": "Zeitspanvolumen",
+    "english": "Material removal rate",
+    "definition": "Zeitspanvolumen ist ein technischer Begriff; auf Englisch: Material removal rate.",
+    "sentence": "In der Praxis wird Zeitspanvolumen (Material removal rate) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 54,
+    "german": "Kontaktzone",
+    "english": "Contact zone",
+    "definition": "Kontaktzone ist ein technischer Begriff; auf Englisch: Contact zone.",
+    "sentence": "In der Praxis wird Kontaktzone (Contact zone) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 55,
+    "german": "Schleifkraft",
+    "english": "Grinding force",
+    "definition": "Schleifkraft bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifkraft (Grinding force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 56,
+    "german": "Tangentialkraft",
+    "english": "Tangential force",
+    "definition": "Tangentialkraft ist ein technischer Begriff; auf Englisch: Tangential force.",
+    "sentence": "In der Praxis wird Tangentialkraft (Tangential force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 57,
+    "german": "Normalkraft",
+    "english": "Normal force",
+    "definition": "Normalkraft ist ein technischer Begriff; auf Englisch: Normal force.",
+    "sentence": "In der Praxis wird Normalkraft (Normal force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 58,
+    "german": "Schleiftemperatur",
+    "english": "Grinding temperature",
+    "definition": "Schleiftemperatur bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleiftemperatur (Grinding temperature) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 59,
+    "german": "Kühlschmierstoff",
+    "english": "Coolant",
+    "definition": "Kühlschmierstoff ist ein technischer Begriff; auf Englisch: Coolant.",
+    "sentence": "Für bessere Standzeit wird Kühlschmierstoff korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 60,
+    "german": "Emulsion",
+    "english": "Emulsion",
+    "definition": "Emulsion ist ein technischer Begriff; auf Englisch: Emulsion.",
+    "sentence": "In der Praxis wird Emulsion (Emulsion) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 61,
+    "german": "Ölschmierung",
+    "english": "Oil lubrication",
+    "definition": "Ölschmierung ist ein technischer Begriff; auf Englisch: Oil lubrication.",
+    "sentence": "In der Praxis wird Ölschmierung (Oil lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 62,
+    "german": "Minimalmengenschmierung",
+    "english": "Minimum quantity lubrication",
+    "definition": "Minimalmengenschmierung ist ein technischer Begriff; auf Englisch: Minimum quantity lubrication.",
+    "sentence": "In der Praxis wird Minimalmengenschmierung (Minimum quantity lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 63,
+    "german": "Kühlmitteldüse",
+    "english": "Coolant nozzle",
+    "definition": "Kühlmitteldüse ist ein technischer Begriff; auf Englisch: Coolant nozzle.",
+    "sentence": "Für bessere Standzeit wird Kühlmitteldüse korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 64,
+    "german": "Kühlmitteldruck",
+    "english": "Coolant pressure",
+    "definition": "Kühlmitteldruck ist ein technischer Begriff; auf Englisch: Coolant pressure.",
+    "sentence": "Für bessere Standzeit wird Kühlmitteldruck korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 65,
+    "german": "Kühlmittelvolumenstrom",
+    "english": "Coolant flow rate",
+    "definition": "Kühlmittelvolumenstrom ist ein technischer Begriff; auf Englisch: Coolant flow rate.",
+    "sentence": "Für bessere Standzeit wird Kühlmittelvolumenstrom korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 66,
+    "german": "Oberflächenrauheit",
+    "english": "Surface roughness",
+    "definition": "Oberflächenrauheit ist ein technischer Begriff; auf Englisch: Surface roughness.",
+    "sentence": "In der Praxis wird Oberflächenrauheit (Surface roughness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 67,
+    "german": "Rautiefe",
+    "english": "Roughness depth",
+    "definition": "Rautiefe ist ein technischer Begriff; auf Englisch: Roughness depth.",
+    "sentence": "In der Praxis wird Rautiefe (Roughness depth) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 68,
+    "german": "Rautiefe",
+    "english": "Rz Roughness Rz",
+    "definition": "Rautiefe ist ein technischer Begriff; auf Englisch: Rz Roughness Rz.",
+    "sentence": "In der Praxis wird Rautiefe (Rz Roughness Rz) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 69,
+    "german": "Rauheitswert",
+    "english": "Ra Roughness Ra",
+    "definition": "Rauheitswert ist ein technischer Begriff; auf Englisch: Ra Roughness Ra.",
+    "sentence": "In der Praxis wird Rauheitswert (Ra Roughness Ra) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 70,
+    "german": "Welligkeit",
+    "english": "Waviness",
+    "definition": "Welligkeit ist ein technischer Begriff; auf Englisch: Waviness.",
+    "sentence": "In der Praxis wird Welligkeit (Waviness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 71,
+    "german": "Formgenauigkeit",
+    "english": "Form accuracy",
+    "definition": "Formgenauigkeit ist ein technischer Begriff; auf Englisch: Form accuracy.",
+    "sentence": "In der Praxis wird Formgenauigkeit (Form accuracy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 72,
+    "german": "Maßgenauigkeit",
+    "english": "Dimensional accuracy",
+    "definition": "Maßgenauigkeit ist ein technischer Begriff; auf Englisch: Dimensional accuracy.",
+    "sentence": "In der Praxis wird Maßgenauigkeit (Dimensional accuracy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 73,
+    "german": "Schleifbrand",
+    "english": "Grinding burn",
+    "definition": "Schleifbrand bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifbrand (Grinding burn) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 74,
+    "german": "Mikrorisse",
+    "english": "Microcracks",
+    "definition": "Mikrorisse ist ein technischer Begriff; auf Englisch: Microcracks.",
+    "sentence": "In der Praxis wird Mikrorisse (Microcracks) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 75,
+    "german": "Gefügeveränderung",
+    "english": "Microstructural change",
+    "definition": "Gefügeveränderung ist ein technischer Begriff; auf Englisch: Microstructural change.",
+    "sentence": "In der Praxis wird Gefügeveränderung (Microstructural change) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 76,
+    "german": "Aufbauschneiden",
+    "english": "Built-up edge",
+    "definition": "Aufbauschneiden ist ein technischer Begriff; auf Englisch: Built-up edge.",
+    "sentence": "In der Praxis wird Aufbauschneiden (Built-up edge) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 77,
+    "german": "Rattermarken",
+    "english": "Chatter marks",
+    "definition": "Rattermarken ist ein technischer Begriff; auf Englisch: Chatter marks.",
+    "sentence": "In der Praxis wird Rattermarken (Chatter marks) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 78,
+    "german": "Schleifschwingungen",
+    "english": "Grinding vibrations",
+    "definition": "Schleifschwingungen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifschwingungen (Grinding vibrations) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 79,
+    "german": "Werkstückverzug",
+    "english": "Workpiece distortion",
+    "definition": "Werkstückverzug ist ein technischer Begriff; auf Englisch: Workpiece distortion.",
+    "sentence": "In der Praxis wird Werkstückverzug (Workpiece distortion) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 80,
+    "german": "Oberflächenrisse",
+    "english": "Surface cracks",
+    "definition": "Oberflächenrisse ist ein technischer Begriff; auf Englisch: Surface cracks.",
+    "sentence": "In der Praxis wird Oberflächenrisse (Surface cracks) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 81,
+    "german": "Überhitzung",
+    "english": "Overheating",
+    "definition": "Überhitzung ist ein technischer Begriff; auf Englisch: Overheating.",
+    "sentence": "In der Praxis wird Überhitzung (Overheating) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 82,
+    "german": "Oberflächenmessung",
+    "english": "Surface measurement",
+    "definition": "Oberflächenmessung ist ein technischer Begriff; auf Englisch: Surface measurement.",
+    "sentence": "In der Praxis wird Oberflächenmessung (Surface measurement) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 83,
+    "german": "Rauheitsmessgerät",
+    "english": "Surface roughness tester",
+    "definition": "Rauheitsmessgerät ist ein technischer Begriff; auf Englisch: Surface roughness tester.",
+    "sentence": "In der Praxis wird Rauheitsmessgerät (Surface roughness tester) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 84,
+    "german": "Profilometer",
+    "english": "Profilometer",
+    "definition": "Profilometer ist ein technischer Begriff; auf Englisch: Profilometer.",
+    "sentence": "In der Praxis wird Profilometer (Profilometer) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 85,
+    "german": "Werkstückprüfung",
+    "english": "Workpiece inspection",
+    "definition": "Werkstückprüfung ist ein technischer Begriff; auf Englisch: Workpiece inspection.",
+    "sentence": "In der Praxis wird Werkstückprüfung (Workpiece inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 86,
+    "german": "Maßprüfung",
+    "english": "Dimensional inspection",
+    "definition": "Maßprüfung ist ein technischer Begriff; auf Englisch: Dimensional inspection.",
+    "sentence": "In der Praxis wird Maßprüfung (Dimensional inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 87,
+    "german": "Formprüfung",
+    "english": "Form inspection",
+    "definition": "Formprüfung ist ein technischer Begriff; auf Englisch: Form inspection.",
+    "sentence": "In der Praxis wird Formprüfung (Form inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 88,
+    "german": "Härteprüfung",
+    "english": "Hardness test",
+    "definition": "Härteprüfung ist ein technischer Begriff; auf Englisch: Hardness test.",
+    "sentence": "In der Praxis wird Härteprüfung (Hardness test) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 89,
+    "german": "Schleifscheibenprüfung",
+    "english": "Grinding wheel inspection",
+    "definition": "Schleifscheibenprüfung bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifscheibenprüfung (Grinding wheel inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 90,
+    "german": "Drehzahlbegrenzung",
+    "english": "Speed limit",
+    "definition": "Drehzahlbegrenzung ist ein technischer Begriff; auf Englisch: Speed limit.",
+    "sentence": "In der Praxis wird Drehzahlbegrenzung (Speed limit) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 91,
+    "german": "Scheibenbruch",
+    "english": "Wheel burst",
+    "definition": "Scheibenbruch bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Scheibenbruch (Wheel burst) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 92,
+    "german": "Schutzhaube",
+    "english": "Safety guard",
+    "definition": "Schutzhaube ist ein technischer Begriff; auf Englisch: Safety guard.",
+    "sentence": "In der Praxis wird Schutzhaube (Safety guard) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 93,
+    "german": "Funkenflug",
+    "english": "Sparks",
+    "definition": "Funkenflug ist ein technischer Begriff; auf Englisch: Sparks.",
+    "sentence": "In der Praxis wird Funkenflug (Sparks) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 94,
+    "german": "Arbeitssicherheit",
+    "english": "Occupational safety",
+    "definition": "Arbeitssicherheit ist ein technischer Begriff; auf Englisch: Occupational safety.",
+    "sentence": "In der Praxis wird Arbeitssicherheit (Occupational safety) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 95,
+    "german": "Prozessstabilität",
+    "english": "Process stability",
+    "definition": "Prozessstabilität ist ein technischer Begriff; auf Englisch: Process stability.",
+    "sentence": "In der Praxis wird Prozessstabilität (Process stability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 96,
+    "german": "Werkzeugstandzeit",
+    "english": "Tool life",
+    "definition": "Werkzeugstandzeit ist ein technischer Begriff; auf Englisch: Tool life.",
+    "sentence": "In der Praxis wird Werkzeugstandzeit (Tool life) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 97,
+    "german": "Wirtschaftlichkeit",
+    "english": "Cost efficiency",
+    "definition": "Wirtschaftlichkeit ist ein technischer Begriff; auf Englisch: Cost efficiency.",
+    "sentence": "In der Praxis wird Wirtschaftlichkeit (Cost efficiency) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 98,
+    "german": "Spanbildung",
+    "english": "Chip formation",
+    "definition": "Spanbildung ist ein technischer Begriff; auf Englisch: Chip formation.",
+    "sentence": "In der Praxis wird Spanbildung (Chip formation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 99,
+    "german": "Spanloses",
+    "english": "Schleifen Chipless grinding",
+    "definition": "Spanloses bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Spanloses (Schleifen Chipless grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 100,
+    "german": "Kontaktsteifigkeit",
+    "english": "Contact stiffness",
+    "definition": "Kontaktsteifigkeit ist ein technischer Begriff; auf Englisch: Contact stiffness.",
+    "sentence": "In der Praxis wird Kontaktsteifigkeit (Contact stiffness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 101,
+    "german": "Thermische",
+    "english": "Schädigung Thermal damage",
+    "definition": "Thermische ist ein technischer Begriff; auf Englisch: Schädigung Thermal damage.",
+    "sentence": "In der Praxis wird Thermische (Schädigung Thermal damage) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 102,
+    "german": "Eigenspannung",
+    "english": "Residual stress",
+    "definition": "Eigenspannung ist ein technischer Begriff; auf Englisch: Residual stress.",
+    "sentence": "In der Praxis wird Eigenspannung (Residual stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 103,
+    "german": "Zugspannung",
+    "english": "Tensile stress",
+    "definition": "Zugspannung ist ein technischer Begriff; auf Englisch: Tensile stress.",
+    "sentence": "In der Praxis wird Zugspannung (Tensile stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 104,
+    "german": "Druckspannung",
+    "english": "Compressive stress",
+    "definition": "Druckspannung ist ein technischer Begriff; auf Englisch: Compressive stress.",
+    "sentence": "In der Praxis wird Druckspannung (Compressive stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 105,
+    "german": "Schleifzone",
+    "english": "Grinding zone",
+    "definition": "Schleifzone bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifzone (Grinding zone) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 106,
+    "german": "Wärmeeinflusszone",
+    "english": "Heat affected zone",
+    "definition": "Wärmeeinflusszone ist ein technischer Begriff; auf Englisch: Heat affected zone.",
+    "sentence": "In der Praxis wird Wärmeeinflusszone (Heat affected zone) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 107,
+    "german": "Schleifleistung",
+    "english": "Grinding power",
+    "definition": "Schleifleistung bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifleistung (Grinding power) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 108,
+    "german": "Spezifische",
+    "english": "Schleifenergie Specific grinding energy",
+    "definition": "Spezifische bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Spezifische (Schleifenergie Specific grinding energy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 109,
+    "german": "Flankenschleifen",
+    "english": "Flank grinding",
+    "definition": "Flankenschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Flankenschleifen (Flank grinding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 110,
+    "german": "Profilfehler",
+    "english": "Profile error",
+    "definition": "Profilfehler ist ein technischer Begriff; auf Englisch: Profile error.",
+    "sentence": "In der Praxis wird Profilfehler (Profile error) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 111,
+    "german": "Teilungsfehler",
+    "english": "Pitch error",
+    "definition": "Teilungsfehler ist ein technischer Begriff; auf Englisch: Pitch error.",
+    "sentence": "In der Praxis wird Teilungsfehler (Pitch error) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 112,
+    "german": "Schrägungsfehler",
+    "english": "Helix error",
+    "definition": "Schrägungsfehler ist ein technischer Begriff; auf Englisch: Helix error.",
+    "sentence": "In der Praxis wird Schrägungsfehler (Helix error) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 113,
+    "german": "Flankenlinienfehler",
+    "english": "Lead error",
+    "definition": "Flankenlinienfehler ist ein technischer Begriff; auf Englisch: Lead error.",
+    "sentence": "In der Praxis wird Flankenlinienfehler (Lead error) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 114,
+    "german": "Kontaktbild",
+    "english": "Contact pattern",
+    "definition": "Kontaktbild ist ein technischer Begriff; auf Englisch: Contact pattern.",
+    "sentence": "In der Praxis wird Kontaktbild (Contact pattern) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 115,
+    "german": "Zahnformkorrektur",
+    "english": "Tooth profile correction",
+    "definition": "Zahnformkorrektur ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnformkorrektur, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 116,
+    "german": "Flankenmodifikation",
+    "english": "Flank modification",
+    "definition": "Flankenmodifikation ist ein technischer Begriff; auf Englisch: Flank modification.",
+    "sentence": "In der Praxis wird Flankenmodifikation (Flank modification) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 117,
+    "german": "Scheibenverschleiß",
+    "english": "Wheel wear",
+    "definition": "Scheibenverschleiß bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Scheibenverschleiß (Wheel wear) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 118,
+    "german": "Glasige",
+    "english": "Scheibe Glazed wheel",
+    "definition": "Glasige bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Glasige (Scheibe Glazed wheel) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 119,
+    "german": "Offene",
+    "english": "Struktur Open structure",
+    "definition": "Offene ist ein technischer Begriff; auf Englisch: Struktur Open structure.",
+    "sentence": "In der Praxis wird Offene (Struktur Open structure) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 120,
+    "german": "Geschlossene",
+    "english": "Struktur Closed structure",
+    "definition": "Geschlossene ist ein technischer Begriff; auf Englisch: Struktur Closed structure.",
+    "sentence": "In der Praxis wird Geschlossene (Struktur Closed structure) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 121,
+    "german": "Nachschärfen",
+    "english": "Re-sharpening",
+    "definition": "Nachschärfen ist ein technischer Begriff; auf Englisch: Re-sharpening.",
+    "sentence": "In der Praxis wird Nachschärfen (Re-sharpening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 122,
+    "german": "Aufspannung",
+    "english": "Clamping",
+    "definition": "Aufspannung ist ein technischer Begriff; auf Englisch: Clamping.",
+    "sentence": "In der Praxis wird Aufspannung (Clamping) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 123,
+    "german": "Spannkraft",
+    "english": "Clamping force",
+    "definition": "Spannkraft ist ein technischer Begriff; auf Englisch: Clamping force.",
+    "sentence": "In der Praxis wird Spannkraft (Clamping force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 124,
+    "german": "Rundlaufabweichung",
+    "english": "Runout deviation",
+    "definition": "Rundlaufabweichung ist ein technischer Begriff; auf Englisch: Runout deviation.",
+    "sentence": "In der Praxis wird Rundlaufabweichung (Runout deviation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 125,
+    "german": "Spindelrundlauf",
+    "english": "Spindle runout",
+    "definition": "Spindelrundlauf ist ein technischer Begriff; auf Englisch: Spindle runout.",
+    "sentence": "In der Praxis wird Spindelrundlauf (Spindle runout) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 126,
+    "german": "Maschinensteifigkeit",
+    "english": "Machine stiffness",
+    "definition": "Maschinensteifigkeit ist ein technischer Begriff; auf Englisch: Machine stiffness.",
+    "sentence": "In der Praxis wird Maschinensteifigkeit (Machine stiffness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 127,
+    "german": "Dämpfung",
+    "english": "Damping",
+    "definition": "Dämpfung ist ein technischer Begriff; auf Englisch: Damping.",
+    "sentence": "In der Praxis wird Dämpfung (Damping) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 128,
+    "german": "Prozessüberwachung",
+    "english": "Process monitoring",
+    "definition": "Prozessüberwachung ist ein technischer Begriff; auf Englisch: Process monitoring.",
+    "sentence": "In der Praxis wird Prozessüberwachung (Process monitoring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 129,
+    "german": "Zustandsüberwachung",
+    "english": "Condition monitoring",
+    "definition": "Zustandsüberwachung ist ein technischer Begriff; auf Englisch: Condition monitoring.",
+    "sentence": "In der Praxis wird Zustandsüberwachung (Condition monitoring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 130,
+    "german": "Schleifparameter",
+    "english": "Grinding parameters",
+    "definition": "Schleifparameter bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifparameter (Grinding parameters) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 131,
+    "german": "Prozessfenster",
+    "english": "Process window",
+    "definition": "Prozessfenster ist ein technischer Begriff; auf Englisch: Process window.",
+    "sentence": "In der Praxis wird Prozessfenster (Process window) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 132,
+    "german": "Optimierung",
+    "english": "Optimization",
+    "definition": "Optimierung ist ein technischer Begriff; auf Englisch: Optimization.",
+    "sentence": "In der Praxis wird Optimierung (Optimization) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 133,
+    "german": "Kühlmittelaufbereitung",
+    "english": "Coolant treatment",
+    "definition": "Kühlmittelaufbereitung ist ein technischer Begriff; auf Englisch: Coolant treatment.",
+    "sentence": "Für bessere Standzeit wird Kühlmittelaufbereitung korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 134,
+    "german": "Filtration",
+    "english": "Filtration",
+    "definition": "Filtration ist ein technischer Begriff; auf Englisch: Filtration.",
+    "sentence": "In der Praxis wird Filtration (Filtration) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 135,
+    "german": "Feinfiltration",
+    "english": "Fine filtration",
+    "definition": "Feinfiltration ist ein technischer Begriff; auf Englisch: Fine filtration.",
+    "sentence": "In der Praxis wird Feinfiltration (Fine filtration) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 136,
+    "german": "Temperaturkontrolle",
+    "english": "Temperature control",
+    "definition": "Temperaturkontrolle ist ein technischer Begriff; auf Englisch: Temperature control.",
+    "sentence": "In der Praxis wird Temperaturkontrolle (Temperature control) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 137,
+    "german": "Ölnebel",
+    "english": "Oil mist",
+    "definition": "Ölnebel ist ein technischer Begriff; auf Englisch: Oil mist.",
+    "sentence": "In der Praxis wird Ölnebel (Oil mist) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 138,
+    "german": "DIN",
+    "english": "69100 DIN 69100",
+    "definition": "DIN bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird DIN als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 139,
+    "german": "ISO",
+    "english": "16089 ISO 16089",
+    "definition": "ISO bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird ISO als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 140,
+    "german": "Schleifpraxis",
+    "english": "Grinding practice",
+    "definition": "Schleifpraxis bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifpraxis (Grinding practice) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 141,
+    "german": "Maschinenaufheizung",
+    "english": "Machine warm-up",
+    "definition": "Maschinenaufheizung ist ein technischer Begriff; auf Englisch: Machine warm-up.",
+    "sentence": "In der Praxis wird Maschinenaufheizung (Machine warm-up) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 142,
+    "german": "Prozessfähigkeit",
+    "english": "Process capability",
+    "definition": "Prozessfähigkeit ist ein technischer Begriff; auf Englisch: Process capability.",
+    "sentence": "In der Praxis wird Prozessfähigkeit (Process capability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 143,
+    "german": "Cp-Wert",
+    "english": "Cp value",
+    "definition": "Cp-Wert ist ein technischer Begriff; auf Englisch: Cp value.",
+    "sentence": "In der Praxis wird Cp-Wert (Cp value) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 144,
+    "german": "Cpk-Wert",
+    "english": "Cpk value",
+    "definition": "Cpk-Wert ist ein technischer Begriff; auf Englisch: Cpk value.",
+    "sentence": "In der Praxis wird Cpk-Wert (Cpk value) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 145,
+    "german": "Prozessabweichung",
+    "english": "Process deviation",
+    "definition": "Prozessabweichung ist ein technischer Begriff; auf Englisch: Process deviation.",
+    "sentence": "In der Praxis wird Prozessabweichung (Process deviation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 146,
+    "german": "Werkstücktemperatur",
+    "english": "Workpiece temperature",
+    "definition": "Werkstücktemperatur ist ein technischer Begriff; auf Englisch: Workpiece temperature.",
+    "sentence": "In der Praxis wird Werkstücktemperatur (Workpiece temperature) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 147,
+    "german": "Scheibenkühlung",
+    "english": "Wheel cooling",
+    "definition": "Scheibenkühlung bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Scheibenkühlung (Wheel cooling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 148,
+    "german": "Umgebungsbedingungen",
+    "english": "Ambient conditions",
+    "definition": "Umgebungsbedingungen ist ein technischer Begriff; auf Englisch: Ambient conditions.",
+    "sentence": "In der Praxis wird Umgebungsbedingungen (Ambient conditions) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 149,
+    "german": "Schleifstrategie",
+    "english": "Grinding strategy",
+    "definition": "Schleifstrategie bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Schleifstrategie (Grinding strategy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 150,
+    "german": "Prozesssicherheit",
+    "english": "Process reliability",
+    "definition": "Prozesssicherheit ist ein technischer Begriff; auf Englisch: Process reliability.",
+    "sentence": "In der Praxis wird Prozesssicherheit (Process reliability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 151,
+    "german": "Zerspanung",
+    "english": "Machining",
+    "definition": "Zerspanung bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Zerspanung (Machining) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 152,
+    "german": "Drehen",
+    "english": "Turning",
+    "definition": "Drehen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Drehen (Turning) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 153,
+    "german": "Außendrehen",
+    "english": "External turning",
+    "definition": "Außendrehen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Außendrehen (External turning) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 154,
+    "german": "Innendrehen",
+    "english": "Internal turning",
+    "definition": "Innendrehen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Innendrehen (Internal turning) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 155,
+    "german": "Plandrehen",
+    "english": "Facing",
+    "definition": "Plandrehen ist ein technischer Begriff; auf Englisch: Facing.",
+    "sentence": "In der Praxis wird Plandrehen (Facing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 156,
+    "german": "Fräsen",
+    "english": "Milling",
+    "definition": "Fräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Fräsen (Milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 157,
+    "german": "Planfräsen",
+    "english": "Face milling",
+    "definition": "Planfräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Planfräsen (Face milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 158,
+    "german": "Umfangsfräsen",
+    "english": "Peripheral milling",
+    "definition": "Umfangsfräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Umfangsfräsen (Peripheral milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 159,
+    "german": "Bohren",
+    "english": "Drilling",
+    "definition": "Bohren bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Bohren (Drilling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 160,
+    "german": "Tieflochbohren",
+    "english": "Deep hole drilling",
+    "definition": "Tieflochbohren bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Tieflochbohren (Deep hole drilling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 161,
+    "german": "Reiben",
+    "english": "Reaming",
+    "definition": "Reiben bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Reiben (Reaming) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 162,
+    "german": "Senken",
+    "english": "Countersinking",
+    "definition": "Senken ist ein technischer Begriff; auf Englisch: Countersinking.",
+    "sentence": "In der Praxis wird Senken (Countersinking) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 163,
+    "german": "Gewindeschneiden",
+    "english": "Thread cutting",
+    "definition": "Gewindeschneiden ist ein technischer Begriff; auf Englisch: Thread cutting.",
+    "sentence": "In der Praxis wird Gewindeschneiden (Thread cutting) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 164,
+    "german": "Gewindefräsen",
+    "english": "Thread milling",
+    "definition": "Gewindefräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Gewindefräsen (Thread milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 165,
+    "german": "Räumen",
+    "english": "Broaching",
+    "definition": "Räumen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Räumen (Broaching) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 166,
+    "german": "Stoßen",
+    "english": "Shaping",
+    "definition": "Stoßen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Stoßen (Shaping) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 167,
+    "german": "Wälzfräsen",
+    "english": "Gear hobbing",
+    "definition": "Wälzfräsen ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Wälzfräsen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 168,
+    "german": "Wälzstoßen",
+    "english": "Gear shaping",
+    "definition": "Wälzstoßen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "Die Auslegung berücksichtigt Wälzstoßen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 169,
+    "german": "Honen",
+    "english": "Honing",
+    "definition": "Honen ist ein technischer Begriff; auf Englisch: Honing.",
+    "sentence": "In der Praxis wird Honen (Honing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 170,
+    "german": "Feindrehen",
+    "english": "Fine turning",
+    "definition": "Feindrehen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Feindrehen (Fine turning) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 171,
+    "german": "Drehmaschine",
+    "english": "Lathe",
+    "definition": "Drehmaschine ist ein technischer Begriff; auf Englisch: Lathe.",
+    "sentence": "In der Praxis wird Drehmaschine (Lathe) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 172,
+    "german": "CNC-Drehmaschine",
+    "english": "CNC lathe",
+    "definition": "CNC-Drehmaschine ist ein technischer Begriff; auf Englisch: CNC lathe.",
+    "sentence": "In der Praxis wird CNC-Drehmaschine (CNC lathe) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 173,
+    "german": "Fräsmaschine",
+    "english": "Milling machine",
+    "definition": "Fräsmaschine bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Fräsmaschine (Milling machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 174,
+    "german": "CNC-Fräsmaschine",
+    "english": "CNC milling machine",
+    "definition": "CNC-Fräsmaschine bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird CNC-Fräsmaschine (CNC milling machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 175,
+    "german": "Bearbeitungszentrum",
+    "english": "Machining center",
+    "definition": "Bearbeitungszentrum bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Bearbeitungszentrum (Machining center) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 176,
+    "german": "Vertikalbearbeitungszentrum",
+    "english": "Vertical machining center",
+    "definition": "Vertikalbearbeitungszentrum bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Vertikalbearbeitungszentrum (Vertical machining center) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 177,
+    "german": "Horizontalbearbeitungszentrum",
+    "english": "Horizontal machining center",
+    "definition": "Horizontalbearbeitungszentrum bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Horizontalbearbeitungszentrum (Horizontal machining center) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 178,
+    "german": "Mehrspindelmaschine",
+    "english": "Multi-spindle machine",
+    "definition": "Mehrspindelmaschine ist ein technischer Begriff; auf Englisch: Multi-spindle machine.",
+    "sentence": "In der Praxis wird Mehrspindelmaschine (Multi-spindle machine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 179,
+    "german": "Dreh-Fräszentrum",
+    "english": "Turn-mill center",
+    "definition": "Dreh-Fräszentrum ist ein technischer Begriff; auf Englisch: Turn-mill center.",
+    "sentence": "In der Praxis wird Dreh-Fräszentrum (Turn-mill center) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 180,
+    "german": "Werkzeugmaschine",
+    "english": "Machine tool",
+    "definition": "Werkzeugmaschine ist ein technischer Begriff; auf Englisch: Machine tool.",
+    "sentence": "In der Praxis wird Werkzeugmaschine (Machine tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 181,
+    "german": "Schneidwerkzeug",
+    "english": "Cutting tool",
+    "definition": "Schneidwerkzeug ist ein technischer Begriff; auf Englisch: Cutting tool.",
+    "sentence": "In der Praxis wird Schneidwerkzeug (Cutting tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 182,
+    "german": "Drehmeißel",
+    "english": "Turning tool",
+    "definition": "Drehmeißel bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Drehmeißel (Turning tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 183,
+    "german": "Schruppmeißel",
+    "english": "Roughing tool",
+    "definition": "Schruppmeißel ist ein technischer Begriff; auf Englisch: Roughing tool.",
+    "sentence": "In der Praxis wird Schruppmeißel (Roughing tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 184,
+    "german": "Schlichtmeißel",
+    "english": "Finishing tool",
+    "definition": "Schlichtmeißel ist ein technischer Begriff; auf Englisch: Finishing tool.",
+    "sentence": "In der Praxis wird Schlichtmeißel (Finishing tool) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 185,
+    "german": "Fräser",
+    "english": "Milling cutter",
+    "definition": "Fräser bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Fräser (Milling cutter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 186,
+    "german": "Schaftfräser",
+    "english": "End mill",
+    "definition": "Schaftfräser ist ein technischer Begriff; auf Englisch: End mill.",
+    "sentence": "In der Praxis wird Schaftfräser (End mill) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 187,
+    "german": "Planfräser",
+    "english": "Face mill",
+    "definition": "Planfräser ist ein technischer Begriff; auf Englisch: Face mill.",
+    "sentence": "In der Praxis wird Planfräser (Face mill) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 188,
+    "german": "Bohrer",
+    "english": "Drill",
+    "definition": "Bohrer ist ein technischer Begriff; auf Englisch: Drill.",
+    "sentence": "In der Praxis wird Bohrer (Drill) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 189,
+    "german": "Spiralbohrer",
+    "english": "Twist drill",
+    "definition": "Spiralbohrer ist ein technischer Begriff; auf Englisch: Twist drill.",
+    "sentence": "In der Praxis wird Spiralbohrer (Twist drill) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 190,
+    "german": "Reibahle",
+    "english": "Reamer",
+    "definition": "Reibahle ist ein technischer Begriff; auf Englisch: Reamer.",
+    "sentence": "In der Praxis wird Reibahle (Reamer) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 191,
+    "german": "Gewindebohrer",
+    "english": "Tap",
+    "definition": "Gewindebohrer ist ein technischer Begriff; auf Englisch: Tap.",
+    "sentence": "In der Praxis wird Gewindebohrer (Tap) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 192,
+    "german": "Wendeschneidplatte",
+    "english": "Indexable insert",
+    "definition": "Wendeschneidplatte ist ein technischer Begriff; auf Englisch: Indexable insert.",
+    "sentence": "In der Praxis wird Wendeschneidplatte (Indexable insert) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 193,
+    "german": "Schneidstoff",
+    "english": "Cutting material",
+    "definition": "Schneidstoff ist ein technischer Begriff; auf Englisch: Cutting material.",
+    "sentence": "In der Praxis wird Schneidstoff (Cutting material) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 194,
+    "german": "Hartmetall",
+    "english": "Carbide",
+    "definition": "Hartmetall ist ein technischer Begriff; auf Englisch: Carbide.",
+    "sentence": "In der Praxis wird Hartmetall (Carbide) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 195,
+    "german": "HSS",
+    "english": "High-speed steel",
+    "definition": "HSS ist ein technischer Begriff; auf Englisch: High-speed steel.",
+    "sentence": "In der Praxis wird HSS (High-speed steel) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 196,
+    "german": "Keramik",
+    "english": "Ceramic",
+    "definition": "Keramik ist ein technischer Begriff; auf Englisch: Ceramic.",
+    "sentence": "In der Praxis wird Keramik (Ceramic) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 197,
+    "german": "PKD",
+    "english": "Polycrystalline diamond",
+    "definition": "PKD ist ein technischer Begriff; auf Englisch: Polycrystalline diamond.",
+    "sentence": "In der Praxis wird PKD (Polycrystalline diamond) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 198,
+    "german": "CBN",
+    "english": "Cubic boron nitride",
+    "definition": "CBN ist ein technischer Begriff; auf Englisch: Cubic boron nitride.",
+    "sentence": "In der Praxis wird CBN (Cubic boron nitride) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 199,
+    "german": "Werkzeughalter",
+    "english": "Tool holder",
+    "definition": "Werkzeughalter ist ein technischer Begriff; auf Englisch: Tool holder.",
+    "sentence": "In der Praxis wird Werkzeughalter (Tool holder) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 200,
+    "german": "Spannzange",
+    "english": "Collet",
+    "definition": "Spannzange ist ein technischer Begriff; auf Englisch: Collet.",
+    "sentence": "In der Praxis wird Spannzange (Collet) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 201,
+    "german": "Hydraulikspannfutter",
+    "english": "Hydraulic chuck",
+    "definition": "Hydraulikspannfutter ist ein technischer Begriff; auf Englisch: Hydraulic chuck.",
+    "sentence": "In der Praxis wird Hydraulikspannfutter (Hydraulic chuck) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 202,
+    "german": "Schnittgeschwindigkeit",
+    "english": "Cutting speed",
+    "definition": "Schnittgeschwindigkeit ist ein technischer Begriff; auf Englisch: Cutting speed.",
+    "sentence": "In der Praxis wird Schnittgeschwindigkeit (Cutting speed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 203,
+    "german": "Vorschub",
+    "english": "Feed",
+    "definition": "Vorschub ist ein technischer Begriff; auf Englisch: Feed.",
+    "sentence": "In der Praxis wird Vorschub (Feed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 204,
+    "german": "Vorschubgeschwindigkeit",
+    "english": "Feed rate",
+    "definition": "Vorschubgeschwindigkeit ist ein technischer Begriff; auf Englisch: Feed rate.",
+    "sentence": "In der Praxis wird Vorschubgeschwindigkeit (Feed rate) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 205,
+    "german": "Zustelltiefe",
+    "english": "Depth of cut",
+    "definition": "Zustelltiefe ist ein technischer Begriff; auf Englisch: Depth of cut.",
+    "sentence": "In der Praxis wird Zustelltiefe (Depth of cut) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 206,
+    "german": "Spanungsquerschnitt",
+    "english": "Chip cross-section",
+    "definition": "Spanungsquerschnitt ist ein technischer Begriff; auf Englisch: Chip cross-section.",
+    "sentence": "In der Praxis wird Spanungsquerschnitt (Chip cross-section) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 207,
+    "german": "Spanvolumen",
+    "english": "Chip volume",
+    "definition": "Spanvolumen ist ein technischer Begriff; auf Englisch: Chip volume.",
+    "sentence": "In der Praxis wird Spanvolumen (Chip volume) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 208,
+    "german": "Spanbildung",
+    "english": "Chip formation",
+    "definition": "Spanbildung ist ein technischer Begriff; auf Englisch: Chip formation.",
+    "sentence": "In der Praxis wird Spanbildung (Chip formation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 209,
+    "german": "Spanbrecher",
+    "english": "Chip breaker",
+    "definition": "Spanbrecher ist ein technischer Begriff; auf Englisch: Chip breaker.",
+    "sentence": "In der Praxis wird Spanbrecher (Chip breaker) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 210,
+    "german": "Werkzeugverschleiß",
+    "english": "Tool wear",
+    "definition": "Werkzeugverschleiß ist ein technischer Begriff; auf Englisch: Tool wear.",
+    "sentence": "In der Praxis wird Werkzeugverschleiß (Tool wear) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 211,
+    "german": "Standzeit",
+    "english": "Tool life",
+    "definition": "Standzeit ist ein technischer Begriff; auf Englisch: Tool life.",
+    "sentence": "In der Praxis wird Standzeit (Tool life) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 212,
+    "german": "CNC",
+    "english": "Computer numerical control",
+    "definition": "CNC ist ein technischer Begriff; auf Englisch: Computer numerical control.",
+    "sentence": "In der Praxis wird CNC (Computer numerical control) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 213,
+    "german": "CNC-Steuerung",
+    "english": "CNC control",
+    "definition": "CNC-Steuerung ist ein technischer Begriff; auf Englisch: CNC control.",
+    "sentence": "In der Praxis wird CNC-Steuerung (CNC control) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 214,
+    "german": "NC-Programm",
+    "english": "NC program",
+    "definition": "NC-Programm ist ein technischer Begriff; auf Englisch: NC program.",
+    "sentence": "In der Praxis wird NC-Programm (NC program) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 215,
+    "german": "Programmsatz",
+    "english": "Program block",
+    "definition": "Programmsatz ist ein technischer Begriff; auf Englisch: Program block.",
+    "sentence": "In der Praxis wird Programmsatz (Program block) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 216,
+    "german": "Interpolation",
+    "english": "Interpolation",
+    "definition": "Interpolation ist ein technischer Begriff; auf Englisch: Interpolation.",
+    "sentence": "In der Praxis wird Interpolation (Interpolation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 217,
+    "german": "Linearinterpolation",
+    "english": "Linear interpolation",
+    "definition": "Linearinterpolation ist ein technischer Begriff; auf Englisch: Linear interpolation.",
+    "sentence": "In der Praxis wird Linearinterpolation (Linear interpolation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 218,
+    "german": "Kreisinterpolation",
+    "english": "Circular interpolation",
+    "definition": "Kreisinterpolation ist ein technischer Begriff; auf Englisch: Circular interpolation.",
+    "sentence": "In der Praxis wird Kreisinterpolation (Circular interpolation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 219,
+    "german": "Eilgang",
+    "english": "Rapid traverse",
+    "definition": "Eilgang ist ein technischer Begriff; auf Englisch: Rapid traverse.",
+    "sentence": "In der Praxis wird Eilgang (Rapid traverse) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 220,
+    "german": "Arbeitsvorschub",
+    "english": "Feed motion",
+    "definition": "Arbeitsvorschub ist ein technischer Begriff; auf Englisch: Feed motion.",
+    "sentence": "In der Praxis wird Arbeitsvorschub (Feed motion) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 221,
+    "german": "Maschinennullpunkt",
+    "english": "Machine zero",
+    "definition": "Maschinennullpunkt ist ein technischer Begriff; auf Englisch: Machine zero.",
+    "sentence": "In der Praxis wird Maschinennullpunkt (Machine zero) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 222,
+    "german": "Werkstücknullpunkt",
+    "english": "Workpiece zero",
+    "definition": "Werkstücknullpunkt ist ein technischer Begriff; auf Englisch: Workpiece zero.",
+    "sentence": "In der Praxis wird Werkstücknullpunkt (Workpiece zero) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 223,
+    "german": "Referenzpunkt",
+    "english": "Reference point",
+    "definition": "Referenzpunkt ist ein technischer Begriff; auf Englisch: Reference point.",
+    "sentence": "In der Praxis wird Referenzpunkt (Reference point) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 224,
+    "german": "Koordinatensystem",
+    "english": "Coordinate system",
+    "definition": "Koordinatensystem ist ein technischer Begriff; auf Englisch: Coordinate system.",
+    "sentence": "In der Praxis wird Koordinatensystem (Coordinate system) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 225,
+    "german": "Absolutmaß",
+    "english": "Absolute dimension",
+    "definition": "Absolutmaß ist ein technischer Begriff; auf Englisch: Absolute dimension.",
+    "sentence": "In der Praxis wird Absolutmaß (Absolute dimension) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 226,
+    "german": "Inkrementalmaß",
+    "english": "Incremental dimension",
+    "definition": "Inkrementalmaß ist ein technischer Begriff; auf Englisch: Incremental dimension.",
+    "sentence": "In der Praxis wird Inkrementalmaß (Incremental dimension) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 227,
+    "german": "G-Code",
+    "english": "G-code",
+    "definition": "G-Code ist ein technischer Begriff; auf Englisch: G-code.",
+    "sentence": "In der Praxis wird G-Code (G-code) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 228,
+    "german": "M-Code",
+    "english": "M-code",
+    "definition": "M-Code ist ein technischer Begriff; auf Englisch: M-code.",
+    "sentence": "In der Praxis wird M-Code (M-code) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 229,
+    "german": "G00",
+    "english": "Rapid positioning",
+    "definition": "G00 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Im NC-Programm wird G00 für eine schnelle Positionierbewegung ohne Schnitt verwendet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 230,
+    "german": "G01",
+    "english": "Linear interpolation",
+    "definition": "G01 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Mit G01 fährt die Maschine eine lineare Bahn mit Arbeitsvorschub.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 231,
+    "german": "G02",
+    "english": "Circular interpolation clockwise",
+    "definition": "G02 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Für Kreisbahnen im Programm nutzen wir G02.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 232,
+    "german": "G03",
+    "english": "Circular interpolation counterclockwise",
+    "definition": "G03 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Für Kreisbahnen im Programm nutzen wir G03.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 233,
+    "german": "G17",
+    "english": "XY plane selection",
+    "definition": "G17 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G17 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 234,
+    "german": "G18",
+    "english": "XZ plane selection",
+    "definition": "G18 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G18 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 235,
+    "german": "G19",
+    "english": "YZ plane selection",
+    "definition": "G19 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G19 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 236,
+    "german": "G54",
+    "english": "Work offset G54",
+    "definition": "G54 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G54 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 237,
+    "german": "G55",
+    "english": "Work offset G55",
+    "definition": "G55 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G55 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 238,
+    "german": "G90",
+    "english": "Absolute programming",
+    "definition": "G90 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G90 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 239,
+    "german": "G91",
+    "english": "Incremental programming",
+    "definition": "G91 ist ein G-Code im CNC-Programm und definiert eine Bewegungs- oder Interpolationsfunktion.",
+    "sentence": "Der Befehl G91 wird im CNC-Programm eingesetzt, um die gewünschte Funktion auszuführen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 240,
+    "german": "M03",
+    "english": "Spindle on clockwise",
+    "definition": "M03 ist ein M-Code im CNC-Programm und schaltet eine Maschinenfunktion (z. B. Spindel oder Kühlschmierstoff).",
+    "sentence": "Vor dem Bearbeiten wird die Spindel mit M03 entsprechend geschaltet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 241,
+    "german": "M04",
+    "english": "Spindle on counterclockwise",
+    "definition": "M04 ist ein M-Code im CNC-Programm und schaltet eine Maschinenfunktion (z. B. Spindel oder Kühlschmierstoff).",
+    "sentence": "Vor dem Bearbeiten wird die Spindel mit M04 entsprechend geschaltet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 242,
+    "german": "M05",
+    "english": "Spindle stop",
+    "definition": "M05 ist ein M-Code im CNC-Programm und schaltet eine Maschinenfunktion (z. B. Spindel oder Kühlschmierstoff).",
+    "sentence": "Vor dem Bearbeiten wird die Spindel mit M05 entsprechend geschaltet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 243,
+    "german": "M08",
+    "english": "Coolant on",
+    "definition": "M08 ist ein M-Code im CNC-Programm und schaltet eine Maschinenfunktion (z. B. Spindel oder Kühlschmierstoff).",
+    "sentence": "Kühlschmierstoff wird im Programm über M08 ein- bzw. ausgeschaltet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 244,
+    "german": "M09",
+    "english": "Coolant off",
+    "definition": "M09 ist ein M-Code im CNC-Programm und schaltet eine Maschinenfunktion (z. B. Spindel oder Kühlschmierstoff).",
+    "sentence": "Kühlschmierstoff wird im Programm über M09 ein- bzw. ausgeschaltet.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 245,
+    "german": "Aufspannung",
+    "english": "Clamping",
+    "definition": "Aufspannung ist ein technischer Begriff; auf Englisch: Clamping.",
+    "sentence": "In der Praxis wird Aufspannung (Clamping) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 246,
+    "german": "Spannmittel",
+    "english": "Clamping device",
+    "definition": "Spannmittel ist ein technischer Begriff; auf Englisch: Clamping device.",
+    "sentence": "In der Praxis wird Spannmittel (Clamping device) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 247,
+    "german": "Schraubstock",
+    "english": "Vise",
+    "definition": "Schraubstock ist ein technischer Begriff; auf Englisch: Vise.",
+    "sentence": "In der Praxis wird Schraubstock (Vise) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 248,
+    "german": "Spannfutter",
+    "english": "Chuck",
+    "definition": "Spannfutter ist ein technischer Begriff; auf Englisch: Chuck.",
+    "sentence": "In der Praxis wird Spannfutter (Chuck) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 249,
+    "german": "Dreibackenfutter",
+    "english": "Three-jaw chuck",
+    "definition": "Dreibackenfutter ist ein technischer Begriff; auf Englisch: Three-jaw chuck.",
+    "sentence": "In der Praxis wird Dreibackenfutter (Three-jaw chuck) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 250,
+    "german": "Vierbackenfutter",
+    "english": "Four-jaw chuck",
+    "definition": "Vierbackenfutter ist ein technischer Begriff; auf Englisch: Four-jaw chuck.",
+    "sentence": "In der Praxis wird Vierbackenfutter (Four-jaw chuck) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 251,
+    "german": "Planscheibe",
+    "english": "Face plate",
+    "definition": "Planscheibe ist ein technischer Begriff; auf Englisch: Face plate.",
+    "sentence": "In der Praxis wird Planscheibe (Face plate) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 252,
+    "german": "Werkstückaufnahme",
+    "english": "Workpiece holding",
+    "definition": "Werkstückaufnahme ist ein technischer Begriff; auf Englisch: Workpiece holding.",
+    "sentence": "In der Praxis wird Werkstückaufnahme (Workpiece holding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 253,
+    "german": "Nullpunktspannsystem",
+    "english": "Zero-point clamping system",
+    "definition": "Nullpunktspannsystem ist ein technischer Begriff; auf Englisch: Zero-point clamping system.",
+    "sentence": "In der Praxis wird Nullpunktspannsystem (Zero-point clamping system) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 254,
+    "german": "Kühlschmierstoff",
+    "english": "Coolant",
+    "definition": "Kühlschmierstoff ist ein technischer Begriff; auf Englisch: Coolant.",
+    "sentence": "Für bessere Standzeit wird Kühlschmierstoff korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 255,
+    "german": "Emulsion",
+    "english": "Emulsion",
+    "definition": "Emulsion ist ein technischer Begriff; auf Englisch: Emulsion.",
+    "sentence": "In der Praxis wird Emulsion (Emulsion) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 256,
+    "german": "Minimalmengenschmierung",
+    "english": "Minimum quantity lubrication",
+    "definition": "Minimalmengenschmierung ist ein technischer Begriff; auf Englisch: Minimum quantity lubrication.",
+    "sentence": "In der Praxis wird Minimalmengenschmierung (Minimum quantity lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 257,
+    "german": "Oberflächenqualität",
+    "english": "Surface quality",
+    "definition": "Oberflächenqualität ist ein technischer Begriff; auf Englisch: Surface quality.",
+    "sentence": "In der Praxis wird Oberflächenqualität (Surface quality) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 258,
+    "german": "Maßgenauigkeit",
+    "english": "Dimensional accuracy",
+    "definition": "Maßgenauigkeit ist ein technischer Begriff; auf Englisch: Dimensional accuracy.",
+    "sentence": "In der Praxis wird Maßgenauigkeit (Dimensional accuracy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 259,
+    "german": "Formgenauigkeit",
+    "english": "Form accuracy",
+    "definition": "Formgenauigkeit ist ein technischer Begriff; auf Englisch: Form accuracy.",
+    "sentence": "In der Praxis wird Formgenauigkeit (Form accuracy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 260,
+    "german": "Rauheitswert",
+    "english": "Surface roughness",
+    "definition": "Rauheitswert ist ein technischer Begriff; auf Englisch: Surface roughness.",
+    "sentence": "In der Praxis wird Rauheitswert (Surface roughness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 261,
+    "german": "Prozesssicherheit",
+    "english": "Process reliability",
+    "definition": "Prozesssicherheit ist ein technischer Begriff; auf Englisch: Process reliability.",
+    "sentence": "In der Praxis wird Prozesssicherheit (Process reliability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 262,
+    "german": "Zerspankraft",
+    "english": "Cutting force",
+    "definition": "Zerspankraft bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Zerspankraft (Cutting force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 263,
+    "german": "Leistungsaufnahme",
+    "english": "Power consumption",
+    "definition": "Leistungsaufnahme ist ein technischer Begriff; auf Englisch: Power consumption.",
+    "sentence": "In der Praxis wird Leistungsaufnahme (Power consumption) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 264,
+    "german": "Schnittkraft",
+    "english": "Cutting force",
+    "definition": "Schnittkraft ist ein technischer Begriff; auf Englisch: Cutting force.",
+    "sentence": "In der Praxis wird Schnittkraft (Cutting force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 265,
+    "german": "Axialkraft",
+    "english": "Axial force",
+    "definition": "Axialkraft ist ein technischer Begriff; auf Englisch: Axial force.",
+    "sentence": "In der Praxis wird Axialkraft (Axial force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 266,
+    "german": "Radialkraft",
+    "english": "Radial force",
+    "definition": "Radialkraft ist ein technischer Begriff; auf Englisch: Radial force.",
+    "sentence": "In der Praxis wird Radialkraft (Radial force) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 267,
+    "german": "Maschinensteifigkeit",
+    "english": "Machine stiffness",
+    "definition": "Maschinensteifigkeit ist ein technischer Begriff; auf Englisch: Machine stiffness.",
+    "sentence": "In der Praxis wird Maschinensteifigkeit (Machine stiffness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 268,
+    "german": "Werkzeugauskragung",
+    "english": "Tool overhang",
+    "definition": "Werkzeugauskragung ist ein technischer Begriff; auf Englisch: Tool overhang.",
+    "sentence": "In der Praxis wird Werkzeugauskragung (Tool overhang) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 269,
+    "german": "Schwingungen",
+    "english": "Vibrations",
+    "definition": "Schwingungen ist ein technischer Begriff; auf Englisch: Vibrations.",
+    "sentence": "In der Praxis wird Schwingungen (Vibrations) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 270,
+    "german": "Rattern",
+    "english": "Chatter",
+    "definition": "Rattern ist ein technischer Begriff; auf Englisch: Chatter.",
+    "sentence": "In der Praxis wird Rattern (Chatter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 271,
+    "german": "Werkzeugbruch",
+    "english": "Tool breakage",
+    "definition": "Werkzeugbruch ist ein technischer Begriff; auf Englisch: Tool breakage.",
+    "sentence": "In der Praxis wird Werkzeugbruch (Tool breakage) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 272,
+    "german": "Werkzeugüberwachung",
+    "english": "Tool monitoring",
+    "definition": "Werkzeugüberwachung ist ein technischer Begriff; auf Englisch: Tool monitoring.",
+    "sentence": "In der Praxis wird Werkzeugüberwachung (Tool monitoring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 273,
+    "german": "Werkzeugwechsel",
+    "english": "Tool change",
+    "definition": "Werkzeugwechsel ist ein technischer Begriff; auf Englisch: Tool change.",
+    "sentence": "In der Praxis wird Werkzeugwechsel (Tool change) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 274,
+    "german": "Werkzeugmagazin",
+    "english": "Tool magazine",
+    "definition": "Werkzeugmagazin ist ein technischer Begriff; auf Englisch: Tool magazine.",
+    "sentence": "In der Praxis wird Werkzeugmagazin (Tool magazine) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 275,
+    "german": "Automatischer",
+    "english": "Werkzeugwechsel Automatic tool changer",
+    "definition": "Automatischer ist ein technischer Begriff; auf Englisch: Werkzeugwechsel Automatic tool changer.",
+    "sentence": "In der Praxis wird Automatischer (Werkzeugwechsel Automatic tool changer) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 276,
+    "german": "Palettenwechsler",
+    "english": "Pallet changer",
+    "definition": "Palettenwechsler ist ein technischer Begriff; auf Englisch: Pallet changer.",
+    "sentence": "In der Praxis wird Palettenwechsler (Pallet changer) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 277,
+    "german": "Maschinenverfügbarkeit",
+    "english": "Machine availability",
+    "definition": "Maschinenverfügbarkeit ist ein technischer Begriff; auf Englisch: Machine availability.",
+    "sentence": "In der Praxis wird Maschinenverfügbarkeit (Machine availability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 278,
+    "german": "Taktzeit",
+    "english": "Cycle time",
+    "definition": "Taktzeit ist ein technischer Begriff; auf Englisch: Cycle time.",
+    "sentence": "In der Praxis wird Taktzeit (Cycle time) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 279,
+    "german": "Rüstzeit",
+    "english": "Setup time",
+    "definition": "Rüstzeit ist ein technischer Begriff; auf Englisch: Setup time.",
+    "sentence": "In der Praxis wird Rüstzeit (Setup time) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 280,
+    "german": "Serienfertigung",
+    "english": "Serial production",
+    "definition": "Serienfertigung ist ein technischer Begriff; auf Englisch: Serial production.",
+    "sentence": "In der Praxis wird Serienfertigung (Serial production) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 281,
+    "german": "Einzelfertigung",
+    "english": "Single-piece production",
+    "definition": "Einzelfertigung ist ein technischer Begriff; auf Englisch: Single-piece production.",
+    "sentence": "In der Praxis wird Einzelfertigung (Single-piece production) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 282,
+    "german": "Prototypenfertigung",
+    "english": "Prototype manufacturing",
+    "definition": "Prototypenfertigung ist ein technischer Begriff; auf Englisch: Prototype manufacturing.",
+    "sentence": "In der Praxis wird Prototypenfertigung (Prototype manufacturing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 283,
+    "german": "CAM-Software",
+    "english": "CAM software",
+    "definition": "CAM-Software ist ein technischer Begriff; auf Englisch: CAM software.",
+    "sentence": "In der Praxis wird CAM-Software (CAM software) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 284,
+    "german": "Postprozessor",
+    "english": "Post-processor",
+    "definition": "Postprozessor ist ein technischer Begriff; auf Englisch: Post-processor.",
+    "sentence": "In der Praxis wird Postprozessor (Post-processor) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 285,
+    "german": "Simulation",
+    "english": "Simulation",
+    "definition": "Simulation ist ein technischer Begriff; auf Englisch: Simulation.",
+    "sentence": "In der Praxis wird Simulation (Simulation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 286,
+    "german": "Kollisionskontrolle",
+    "english": "Collision check",
+    "definition": "Kollisionskontrolle ist ein technischer Begriff; auf Englisch: Collision check.",
+    "sentence": "In der Praxis wird Kollisionskontrolle (Collision check) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 287,
+    "german": "Trockenlauf",
+    "english": "Dry run",
+    "definition": "Trockenlauf ist ein technischer Begriff; auf Englisch: Dry run.",
+    "sentence": "In der Praxis wird Trockenlauf (Dry run) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 288,
+    "german": "Bearbeitungsstrategie",
+    "english": "Machining strategy",
+    "definition": "Bearbeitungsstrategie bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Bearbeitungsstrategie (Machining strategy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 289,
+    "german": "Schruppstrategie",
+    "english": "Roughing strategy",
+    "definition": "Schruppstrategie ist ein technischer Begriff; auf Englisch: Roughing strategy.",
+    "sentence": "In der Praxis wird Schruppstrategie (Roughing strategy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 290,
+    "german": "Schlichtstrategie",
+    "english": "Finishing strategy",
+    "definition": "Schlichtstrategie ist ein technischer Begriff; auf Englisch: Finishing strategy.",
+    "sentence": "In der Praxis wird Schlichtstrategie (Finishing strategy) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 291,
+    "german": "Hochvorschubfräsen",
+    "english": "High-feed milling",
+    "definition": "Hochvorschubfräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Hochvorschubfräsen (High-feed milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 292,
+    "german": "Trochoidalfräsen",
+    "english": "Trochoidal milling",
+    "definition": "Trochoidalfräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Trochoidalfräsen (Trochoidal milling) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 293,
+    "german": "Restmaterialbearbeitung",
+    "english": "Rest machining",
+    "definition": "Restmaterialbearbeitung bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Restmaterialbearbeitung (Rest machining) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 294,
+    "german": "5-Achs-Bearbeitung",
+    "english": "5-axis machining",
+    "definition": "5-Achs-Bearbeitung bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird 5-Achs-Bearbeitung (5-axis machining) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 295,
+    "german": "Mehrachsbearbeitung",
+    "english": "Multi-axis machining",
+    "definition": "Mehrachsbearbeitung bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "In der Praxis wird Mehrachsbearbeitung (Multi-axis machining) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 296,
+    "german": "Werkzeuglängenmessung",
+    "english": "Tool length measurement",
+    "definition": "Werkzeuglängenmessung ist ein technischer Begriff; auf Englisch: Tool length measurement.",
+    "sentence": "In der Praxis wird Werkzeuglängenmessung (Tool length measurement) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 297,
+    "german": "Werkzeugvermessung",
+    "english": "Tool presetting",
+    "definition": "Werkzeugvermessung ist ein technischer Begriff; auf Englisch: Tool presetting.",
+    "sentence": "In der Praxis wird Werkzeugvermessung (Tool presetting) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 298,
+    "german": "Messtaster",
+    "english": "Touch probe",
+    "definition": "Messtaster ist ein technischer Begriff; auf Englisch: Touch probe.",
+    "sentence": "In der Praxis wird Messtaster (Touch probe) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 299,
+    "german": "In-Prozess-Messung",
+    "english": "In-process measurement",
+    "definition": "In-Prozess-Messung ist ein technischer Begriff; auf Englisch: In-process measurement.",
+    "sentence": "In der Praxis wird In-Prozess-Messung (In-process measurement) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 300,
+    "german": "Maschinenbediener",
+    "english": "Machine operator",
+    "definition": "Maschinenbediener ist ein technischer Begriff; auf Englisch: Machine operator.",
+    "sentence": "In der Praxis wird Maschinenbediener (Machine operator) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 301,
+    "german": "Getriebe",
+    "english": "Gearbox",
+    "definition": "Getriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 302,
+    "german": "Stirnradgetriebe",
+    "english": "Spur gearbox",
+    "definition": "Stirnradgetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Stirnradgetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 303,
+    "german": "Schrägverzahntes",
+    "english": "Getriebe Helical gearbox",
+    "definition": "Schrägverzahntes ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Schrägverzahntes, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 304,
+    "german": "Kegelradgetriebe",
+    "english": "Bevel gearbox",
+    "definition": "Kegelradgetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Kegelradgetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 305,
+    "german": "Schneckengetriebe",
+    "english": "Worm gearbox",
+    "definition": "Schneckengetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Schneckengetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 306,
+    "german": "Planetengetriebe",
+    "english": "Planetary gearbox",
+    "definition": "Planetengetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Planetengetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 307,
+    "german": "Untersetzungsgetriebe",
+    "english": "Reduction gearbox",
+    "definition": "Untersetzungsgetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Untersetzungsgetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 308,
+    "german": "Mehrstufiges",
+    "english": "Getriebe Multi-stage gearbox",
+    "definition": "Mehrstufiges ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Mehrstufiges, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 309,
+    "german": "Getriebegehäuse",
+    "english": "Gearbox housing",
+    "definition": "Getriebegehäuse ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebegehäuse, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 310,
+    "german": "Getriebedeckel",
+    "english": "Gearbox cover",
+    "definition": "Getriebedeckel ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebedeckel, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 311,
+    "german": "Getriebeöl",
+    "english": "Gear oil",
+    "definition": "Getriebeöl ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebeöl, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 312,
+    "german": "Ölbadschmierung",
+    "english": "Oil bath lubrication",
+    "definition": "Ölbadschmierung ist ein technischer Begriff; auf Englisch: Oil bath lubrication.",
+    "sentence": "In der Praxis wird Ölbadschmierung (Oil bath lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 313,
+    "german": "Umlaufschmierung",
+    "english": "Circulating lubrication",
+    "definition": "Umlaufschmierung ist ein technischer Begriff; auf Englisch: Circulating lubrication.",
+    "sentence": "In der Praxis wird Umlaufschmierung (Circulating lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 314,
+    "german": "Spritzschmierung",
+    "english": "Splash lubrication",
+    "definition": "Spritzschmierung ist ein technischer Begriff; auf Englisch: Splash lubrication.",
+    "sentence": "In der Praxis wird Spritzschmierung (Splash lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 315,
+    "german": "Zwangsschmierung",
+    "english": "Forced lubrication",
+    "definition": "Zwangsschmierung ist ein technischer Begriff; auf Englisch: Forced lubrication.",
+    "sentence": "In der Praxis wird Zwangsschmierung (Forced lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 316,
+    "german": "Ölpumpe",
+    "english": "Oil pump",
+    "definition": "Ölpumpe ist ein technischer Begriff; auf Englisch: Oil pump.",
+    "sentence": "In der Praxis wird Ölpumpe (Oil pump) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 317,
+    "german": "Ölfilter",
+    "english": "Oil filter",
+    "definition": "Ölfilter ist ein technischer Begriff; auf Englisch: Oil filter.",
+    "sentence": "In der Praxis wird Ölfilter (Oil filter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 318,
+    "german": "Ölkühler",
+    "english": "Oil cooler",
+    "definition": "Ölkühler ist ein technischer Begriff; auf Englisch: Oil cooler.",
+    "sentence": "In der Praxis wird Ölkühler (Oil cooler) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 319,
+    "german": "Ölstand",
+    "english": "Oil level",
+    "definition": "Ölstand ist ein technischer Begriff; auf Englisch: Oil level.",
+    "sentence": "In der Praxis wird Ölstand (Oil level) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 320,
+    "german": "Öltemperatur",
+    "english": "Oil temperature",
+    "definition": "Öltemperatur ist ein technischer Begriff; auf Englisch: Oil temperature.",
+    "sentence": "In der Praxis wird Öltemperatur (Oil temperature) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 321,
+    "german": "Hauptwelle",
+    "english": "Main shaft",
+    "definition": "Hauptwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Hauptwelle (Main shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 322,
+    "german": "Nebenwelle",
+    "english": "Secondary shaft",
+    "definition": "Nebenwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Nebenwelle (Secondary shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 323,
+    "german": "Zwischenwelle",
+    "english": "Intermediate shaft",
+    "definition": "Zwischenwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Zwischenwelle (Intermediate shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 324,
+    "german": "Antriebswelle",
+    "english": "Drive shaft",
+    "definition": "Antriebswelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Antriebswelle (Drive shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 325,
+    "german": "Abtriebswelle",
+    "english": "Output shaft",
+    "definition": "Abtriebswelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Abtriebswelle (Output shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 326,
+    "german": "Hohlwelle",
+    "english": "Hollow shaft",
+    "definition": "Hohlwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Hohlwelle (Hollow shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 327,
+    "german": "Vollwelle",
+    "english": "Solid shaft",
+    "definition": "Vollwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Vollwelle (Solid shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 328,
+    "german": "Keilwelle",
+    "english": "Splined shaft",
+    "definition": "Keilwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Keilwelle (Splined shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 329,
+    "german": "Passfederwelle",
+    "english": "Keyed shaft",
+    "definition": "Passfederwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Passfederwelle (Keyed shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 330,
+    "german": "Schaltwelle",
+    "english": "Shift shaft",
+    "definition": "Schaltwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Schaltwelle (Shift shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 331,
+    "german": "Kupplungswelle",
+    "english": "Clutch shaft",
+    "definition": "Kupplungswelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Kupplungswelle (Clutch shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 332,
+    "german": "Wellenzapfen",
+    "english": "Shaft journal",
+    "definition": "Wellenzapfen ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Wellenzapfen (Shaft journal) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 333,
+    "german": "Wellenabsatz",
+    "english": "Shaft shoulder",
+    "definition": "Wellenabsatz ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Wellenabsatz (Shaft shoulder) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 334,
+    "german": "Wellenende",
+    "english": "Shaft end",
+    "definition": "Wellenende ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Wellenende (Shaft end) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 335,
+    "german": "Axialspiel",
+    "english": "Axial clearance",
+    "definition": "Axialspiel ist ein technischer Begriff; auf Englisch: Axial clearance.",
+    "sentence": "In der Praxis wird Axialspiel (Axial clearance) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 336,
+    "german": "Radialspiel",
+    "english": "Radial clearance",
+    "definition": "Radialspiel ist ein technischer Begriff; auf Englisch: Radial clearance.",
+    "sentence": "In der Praxis wird Radialspiel (Radial clearance) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 337,
+    "german": "Wälzlager",
+    "english": "Rolling bearing",
+    "definition": "Wälzlager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Wälzlager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 338,
+    "german": "Kugellager",
+    "english": "Ball bearing",
+    "definition": "Kugellager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Kugellager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 339,
+    "german": "Zylinderrollenlager",
+    "english": "Cylindrical roller bearing",
+    "definition": "Zylinderrollenlager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Zylinderrollenlager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 340,
+    "german": "Kegelrollenlager",
+    "english": "Tapered roller bearing",
+    "definition": "Kegelrollenlager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Kegelrollenlager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 341,
+    "german": "Nadellager",
+    "english": "Needle bearing",
+    "definition": "Nadellager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Nadellager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 342,
+    "german": "Axiallager",
+    "english": "Thrust bearing",
+    "definition": "Axiallager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Axiallager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 343,
+    "german": "Radiallager",
+    "english": "Radial bearing",
+    "definition": "Radiallager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Radiallager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 344,
+    "german": "Lagerluft",
+    "english": "Bearing clearance",
+    "definition": "Lagerluft ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Lagerluft geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 345,
+    "german": "Wellendichtring",
+    "english": "Shaft seal",
+    "definition": "Wellendichtring ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Wellendichtring (Shaft seal) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 346,
+    "german": "Radialwellendichtring",
+    "english": "Radial shaft seal",
+    "definition": "Radialwellendichtring ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Radialwellendichtring (Radial shaft seal) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 347,
+    "german": "Labyrinthdichtung",
+    "english": "Labyrinth seal",
+    "definition": "Labyrinthdichtung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Labyrinthdichtung (Labyrinth seal) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 348,
+    "german": "O-Ring",
+    "english": "O-ring",
+    "definition": "O-Ring ist ein technischer Begriff; auf Englisch: O-ring.",
+    "sentence": "In der Praxis wird O-Ring (O-ring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 349,
+    "german": "Dichtung",
+    "english": "Seal",
+    "definition": "Dichtung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Dichtung (Seal) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 350,
+    "german": "Zahnrad",
+    "english": "Gear",
+    "definition": "Zahnrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 351,
+    "german": "Stirnrad",
+    "english": "Spur gear",
+    "definition": "Stirnrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Stirnrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 352,
+    "german": "Schrägzahnrad",
+    "english": "Helical gear",
+    "definition": "Schrägzahnrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Schrägzahnrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 353,
+    "german": "Doppelschrägzahnrad",
+    "english": "Double helical gear",
+    "definition": "Doppelschrägzahnrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Doppelschrägzahnrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 354,
+    "german": "Kegelrad",
+    "english": "Bevel gear",
+    "definition": "Kegelrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Kegelrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 355,
+    "german": "Hypoidrad",
+    "english": "Hypoid gear",
+    "definition": "Hypoidrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Hypoidrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 356,
+    "german": "Schneckenrad",
+    "english": "Worm gear",
+    "definition": "Schneckenrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Schneckenrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 357,
+    "german": "Schnecke",
+    "english": "Worm",
+    "definition": "Schnecke ist ein technischer Begriff; auf Englisch: Worm.",
+    "sentence": "In der Praxis wird Schnecke (Worm) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 358,
+    "german": "Innenzahnrad",
+    "english": "Internal gear",
+    "definition": "Innenzahnrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Innenzahnrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 359,
+    "german": "Hohlrad",
+    "english": "Ring gear",
+    "definition": "Hohlrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Hohlrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 360,
+    "german": "Sonnenrad",
+    "english": "Sun gear",
+    "definition": "Sonnenrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Sonnenrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 361,
+    "german": "Planetenrad",
+    "english": "Planet gear",
+    "definition": "Planetenrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Planetenrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 362,
+    "german": "Ausgleichsrad",
+    "english": "Idler gear",
+    "definition": "Ausgleichsrad ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Ausgleichsrad, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 363,
+    "german": "Zahnmodul",
+    "english": "Module",
+    "definition": "Zahnmodul ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnmodul, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 364,
+    "german": "Zahnteilung",
+    "english": "Pitch",
+    "definition": "Zahnteilung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnteilung, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 365,
+    "german": "Zahnbreite",
+    "english": "Face width",
+    "definition": "Zahnbreite ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnbreite, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 366,
+    "german": "Eingriffswinkel",
+    "english": "Pressure angle",
+    "definition": "Eingriffswinkel ist ein technischer Begriff; auf Englisch: Pressure angle.",
+    "sentence": "In der Praxis wird Eingriffswinkel (Pressure angle) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 367,
+    "german": "Schrägungswinkel",
+    "english": "Helix angle",
+    "definition": "Schrägungswinkel ist ein technischer Begriff; auf Englisch: Helix angle.",
+    "sentence": "In der Praxis wird Schrägungswinkel (Helix angle) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 368,
+    "german": "Zahnkopf",
+    "english": "Gear tip",
+    "definition": "Zahnkopf ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnkopf, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 369,
+    "german": "Zahnfuß",
+    "english": "Gear root",
+    "definition": "Zahnfuß ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnfuß, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 370,
+    "german": "Zahnflanke",
+    "english": "Gear flank",
+    "definition": "Zahnflanke ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnflanke, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 371,
+    "german": "Profilverschiebung",
+    "english": "Profile shift",
+    "definition": "Profilverschiebung ist ein technischer Begriff; auf Englisch: Profile shift.",
+    "sentence": "In der Praxis wird Profilverschiebung (Profile shift) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 372,
+    "german": "Flankenspiel",
+    "english": "Backlash",
+    "definition": "Flankenspiel ist ein technischer Begriff; auf Englisch: Backlash.",
+    "sentence": "In der Praxis wird Flankenspiel (Backlash) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 373,
+    "german": "Kontaktverhältnis",
+    "english": "Contact ratio",
+    "definition": "Kontaktverhältnis ist ein technischer Begriff; auf Englisch: Contact ratio.",
+    "sentence": "In der Praxis wird Kontaktverhältnis (Contact ratio) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 374,
+    "german": "Planetenträger",
+    "english": "Planet carrier",
+    "definition": "Planetenträger ist ein technischer Begriff; auf Englisch: Planet carrier.",
+    "sentence": "In der Praxis wird Planetenträger (Planet carrier) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 375,
+    "german": "Planetenbolzen",
+    "english": "Planet pin",
+    "definition": "Planetenbolzen ist ein technischer Begriff; auf Englisch: Planet pin.",
+    "sentence": "In der Praxis wird Planetenbolzen (Planet pin) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 376,
+    "german": "Planetenlager",
+    "english": "Planet bearing",
+    "definition": "Planetenlager ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Das Bauteil wird über ein Planetenlager geführt und abgestützt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 377,
+    "german": "Planetenstufe",
+    "english": "Planet stage",
+    "definition": "Planetenstufe ist ein technischer Begriff; auf Englisch: Planet stage.",
+    "sentence": "In der Praxis wird Planetenstufe (Planet stage) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 378,
+    "german": "Sonnenwelle",
+    "english": "Sun shaft",
+    "definition": "Sonnenwelle ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Sonnenwelle (Sun shaft) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 379,
+    "german": "Hohlradträger",
+    "english": "Ring gear carrier",
+    "definition": "Hohlradträger ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Hohlradträger, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 380,
+    "german": "Planetenpaket",
+    "english": "Planet set",
+    "definition": "Planetenpaket ist ein technischer Begriff; auf Englisch: Planet set.",
+    "sentence": "In der Praxis wird Planetenpaket (Planet set) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 381,
+    "german": "Lastverteilung",
+    "english": "Load sharing",
+    "definition": "Lastverteilung ist ein technischer Begriff; auf Englisch: Load sharing.",
+    "sentence": "In der Praxis wird Lastverteilung (Load sharing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 382,
+    "german": "Leistungszweig",
+    "english": "Power path",
+    "definition": "Leistungszweig ist ein technischer Begriff; auf Englisch: Power path.",
+    "sentence": "In der Praxis wird Leistungszweig (Power path) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 383,
+    "german": "Koaxialanordnung",
+    "english": "Coaxial arrangement",
+    "definition": "Koaxialanordnung ist ein technischer Begriff; auf Englisch: Coaxial arrangement.",
+    "sentence": "In der Praxis wird Koaxialanordnung (Coaxial arrangement) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 384,
+    "german": "Mehrstufiges",
+    "english": "Planetengetriebe Multi-stage planetary gearbox",
+    "definition": "Mehrstufiges ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Mehrstufiges, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 385,
+    "german": "Kupplung",
+    "english": "Clutch",
+    "definition": "Kupplung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Kupplung (Clutch) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 386,
+    "german": "Lamellenkupplung",
+    "english": "Multi-plate clutch",
+    "definition": "Lamellenkupplung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Lamellenkupplung (Multi-plate clutch) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 387,
+    "german": "Rutschkupplung",
+    "english": "Slip clutch",
+    "definition": "Rutschkupplung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "In der Praxis wird Rutschkupplung (Slip clutch) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 388,
+    "german": "Synchronring",
+    "english": "Synchronizer ring",
+    "definition": "Synchronring ist ein technischer Begriff; auf Englisch: Synchronizer ring.",
+    "sentence": "In der Praxis wird Synchronring (Synchronizer ring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 389,
+    "german": "Synchronkörper",
+    "english": "Synchronizer hub",
+    "definition": "Synchronkörper ist ein technischer Begriff; auf Englisch: Synchronizer hub.",
+    "sentence": "In der Praxis wird Synchronkörper (Synchronizer hub) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 390,
+    "german": "Schaltmuffe",
+    "english": "Sliding sleeve",
+    "definition": "Schaltmuffe ist ein technischer Begriff; auf Englisch: Sliding sleeve.",
+    "sentence": "In der Praxis wird Schaltmuffe (Sliding sleeve) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 391,
+    "german": "Schaltgabel",
+    "english": "Shift fork",
+    "definition": "Schaltgabel ist ein technischer Begriff; auf Englisch: Shift fork.",
+    "sentence": "In der Praxis wird Schaltgabel (Shift fork) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 392,
+    "german": "Drehmomentbegrenzer",
+    "english": "Torque limiter",
+    "definition": "Drehmomentbegrenzer ist ein technischer Begriff; auf Englisch: Torque limiter.",
+    "sentence": "In der Praxis wird Drehmomentbegrenzer (Torque limiter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 393,
+    "german": "Überlastschutz",
+    "english": "Overload protection",
+    "definition": "Überlastschutz ist ein technischer Begriff; auf Englisch: Overload protection.",
+    "sentence": "In der Praxis wird Überlastschutz (Overload protection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 394,
+    "german": "Drehmoment",
+    "english": "Torque",
+    "definition": "Drehmoment ist ein technischer Begriff; auf Englisch: Torque.",
+    "sentence": "In der Praxis wird Drehmoment (Torque) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 395,
+    "german": "Drehzahl",
+    "english": "Rotational speed",
+    "definition": "Drehzahl ist ein technischer Begriff; auf Englisch: Rotational speed.",
+    "sentence": "In der Praxis wird Drehzahl (Rotational speed) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 396,
+    "german": "Übersetzungsverhältnis",
+    "english": "Gear ratio",
+    "definition": "Übersetzungsverhältnis ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Übersetzungsverhältnis, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 397,
+    "german": "Wirkungsgrad",
+    "english": "Efficiency",
+    "definition": "Wirkungsgrad ist ein technischer Begriff; auf Englisch: Efficiency.",
+    "sentence": "In der Praxis wird Wirkungsgrad (Efficiency) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 398,
+    "german": "Geräuschentwicklung",
+    "english": "Noise generation",
+    "definition": "Geräuschentwicklung ist ein technischer Begriff; auf Englisch: Noise generation.",
+    "sentence": "In der Praxis wird Geräuschentwicklung (Noise generation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 399,
+    "german": "Schwingung",
+    "english": "Vibration",
+    "definition": "Schwingung ist ein technischer Begriff; auf Englisch: Vibration.",
+    "sentence": "In der Praxis wird Schwingung (Vibration) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 400,
+    "german": "Wärmeentwicklung",
+    "english": "Heat generation",
+    "definition": "Wärmeentwicklung ist ein technischer Begriff; auf Englisch: Heat generation.",
+    "sentence": "In der Praxis wird Wärmeentwicklung (Heat generation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 401,
+    "german": "Lebensdauer",
+    "english": "Service life",
+    "definition": "Lebensdauer ist ein technischer Begriff; auf Englisch: Service life.",
+    "sentence": "In der Praxis wird Lebensdauer (Service life) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 402,
+    "german": "Zuverlässigkeit",
+    "english": "Reliability",
+    "definition": "Zuverlässigkeit ist ein technischer Begriff; auf Englisch: Reliability.",
+    "sentence": "In der Praxis wird Zuverlässigkeit (Reliability) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 403,
+    "german": "Zahnradfräsen",
+    "english": "Gear milling",
+    "definition": "Zahnradfräsen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "Die Auslegung berücksichtigt Zahnradfräsen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 404,
+    "german": "Wälzfräsen",
+    "english": "Hobbing",
+    "definition": "Wälzfräsen ist ein technischer Begriff; auf Englisch: Hobbing.",
+    "sentence": "In der Praxis wird Wälzfräsen (Hobbing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 405,
+    "german": "Wälzstoßen",
+    "english": "Gear shaping",
+    "definition": "Wälzstoßen bezeichnet einen Fachbegriff aus der Zerspanung (Verfahren, Werkzeug, Parameter oder Prozessmerkmal).",
+    "sentence": "Die Auslegung berücksichtigt Wälzstoßen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 406,
+    "german": "Zahnradschleifen",
+    "english": "Gear grinding",
+    "definition": "Zahnradschleifen bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "Die Auslegung berücksichtigt Zahnradschleifen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Grinding (Schleifen)"
+  },
+  {
+    "id": 407,
+    "german": "Zahnradstoßen",
+    "english": "Gear slotting",
+    "definition": "Zahnradstoßen ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnradstoßen, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 408,
+    "german": "Einsatzhärten",
+    "english": "Case hardening",
+    "definition": "Einsatzhärten ist ein technischer Begriff; auf Englisch: Case hardening.",
+    "sentence": "In der Praxis wird Einsatzhärten (Case hardening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 409,
+    "german": "Nitrieren",
+    "english": "Nitriding",
+    "definition": "Nitrieren ist ein technischer Begriff; auf Englisch: Nitriding.",
+    "sentence": "In der Praxis wird Nitrieren (Nitriding) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 410,
+    "german": "Induktionshärten",
+    "english": "Induction hardening",
+    "definition": "Induktionshärten ist ein technischer Begriff; auf Englisch: Induction hardening.",
+    "sentence": "In der Praxis wird Induktionshärten (Induction hardening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 411,
+    "german": "Flammhärten",
+    "english": "Flame hardening",
+    "definition": "Flammhärten ist ein technischer Begriff; auf Englisch: Flame hardening.",
+    "sentence": "In der Praxis wird Flammhärten (Flame hardening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 412,
+    "german": "Randschichthärtung",
+    "english": "Surface hardening",
+    "definition": "Randschichthärtung ist ein technischer Begriff; auf Englisch: Surface hardening.",
+    "sentence": "In der Praxis wird Randschichthärtung (Surface hardening) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 413,
+    "german": "Montage",
+    "english": "Assembly",
+    "definition": "Montage ist ein technischer Begriff; auf Englisch: Assembly.",
+    "sentence": "In der Praxis wird Montage (Assembly) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 414,
+    "german": "Demontage",
+    "english": "Disassembly",
+    "definition": "Demontage ist ein technischer Begriff; auf Englisch: Disassembly.",
+    "sentence": "In der Praxis wird Demontage (Disassembly) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 415,
+    "german": "Einlaufphase",
+    "english": "Running-in phase",
+    "definition": "Einlaufphase ist ein technischer Begriff; auf Englisch: Running-in phase.",
+    "sentence": "In der Praxis wird Einlaufphase (Running-in phase) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 416,
+    "german": "Zahnradprüfung",
+    "english": "Gear inspection",
+    "definition": "Zahnradprüfung ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnradprüfung, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 417,
+    "german": "Flankenprüfung",
+    "english": "Flank inspection",
+    "definition": "Flankenprüfung ist ein technischer Begriff; auf Englisch: Flank inspection.",
+    "sentence": "In der Praxis wird Flankenprüfung (Flank inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 418,
+    "german": "Rundlaufprüfung",
+    "english": "Runout inspection",
+    "definition": "Rundlaufprüfung ist ein technischer Begriff; auf Englisch: Runout inspection.",
+    "sentence": "In der Praxis wird Rundlaufprüfung (Runout inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 419,
+    "german": "Geräuschprüfung",
+    "english": "Noise test",
+    "definition": "Geräuschprüfung ist ein technischer Begriff; auf Englisch: Noise test.",
+    "sentence": "In der Praxis wird Geräuschprüfung (Noise test) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 420,
+    "german": "Dichtheitsprüfung",
+    "english": "Leak test",
+    "definition": "Dichtheitsprüfung ist ein technischer Begriff; auf Englisch: Leak test.",
+    "sentence": "In der Praxis wird Dichtheitsprüfung (Leak test) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 421,
+    "german": "Endprüfung",
+    "english": "Final inspection",
+    "definition": "Endprüfung ist ein technischer Begriff; auf Englisch: Final inspection.",
+    "sentence": "In der Praxis wird Endprüfung (Final inspection) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 422,
+    "german": "Schmierfilm",
+    "english": "Lubrication film",
+    "definition": "Schmierfilm ist ein technischer Begriff; auf Englisch: Lubrication film.",
+    "sentence": "Für bessere Standzeit wird Schmierfilm korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 423,
+    "german": "Grenzschmierung",
+    "english": "Boundary lubrication",
+    "definition": "Grenzschmierung ist ein technischer Begriff; auf Englisch: Boundary lubrication.",
+    "sentence": "In der Praxis wird Grenzschmierung (Boundary lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 424,
+    "german": "Mischreibung",
+    "english": "Mixed lubrication",
+    "definition": "Mischreibung ist ein technischer Begriff; auf Englisch: Mixed lubrication.",
+    "sentence": "In der Praxis wird Mischreibung (Mixed lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 425,
+    "german": "Hydrodynamische",
+    "english": "Schmierung Hydrodynamic lubrication",
+    "definition": "Hydrodynamische ist ein technischer Begriff; auf Englisch: Schmierung Hydrodynamic lubrication.",
+    "sentence": "In der Praxis wird Hydrodynamische (Schmierung Hydrodynamic lubrication) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 426,
+    "german": "Tragbild",
+    "english": "Contact pattern",
+    "definition": "Tragbild ist ein technischer Begriff; auf Englisch: Contact pattern.",
+    "sentence": "In der Praxis wird Tragbild (Contact pattern) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 427,
+    "german": "Flankenlinienkorrektur",
+    "english": "Lead correction",
+    "definition": "Flankenlinienkorrektur ist ein technischer Begriff; auf Englisch: Lead correction.",
+    "sentence": "In der Praxis wird Flankenlinienkorrektur (Lead correction) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 428,
+    "german": "Profilkorrektur",
+    "english": "Profile correction",
+    "definition": "Profilkorrektur ist ein technischer Begriff; auf Englisch: Profile correction.",
+    "sentence": "In der Praxis wird Profilkorrektur (Profile correction) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 429,
+    "german": "Zahnhöhenkorrektur",
+    "english": "Addendum modification",
+    "definition": "Zahnhöhenkorrektur ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnhöhenkorrektur, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 430,
+    "german": "Fußkreisdurchmesser",
+    "english": "Root circle diameter",
+    "definition": "Fußkreisdurchmesser ist ein technischer Begriff; auf Englisch: Root circle diameter.",
+    "sentence": "In der Praxis wird Fußkreisdurchmesser (Root circle diameter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 431,
+    "german": "Kopfkreisdurchmesser",
+    "english": "Tip circle diameter",
+    "definition": "Kopfkreisdurchmesser ist ein technischer Begriff; auf Englisch: Tip circle diameter.",
+    "sentence": "In der Praxis wird Kopfkreisdurchmesser (Tip circle diameter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 432,
+    "german": "Teilkreisdurchmesser",
+    "english": "Pitch circle diameter",
+    "definition": "Teilkreisdurchmesser ist ein technischer Begriff; auf Englisch: Pitch circle diameter.",
+    "sentence": "In der Praxis wird Teilkreisdurchmesser (Pitch circle diameter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 433,
+    "german": "Basisdurchmesser",
+    "english": "Base circle diameter",
+    "definition": "Basisdurchmesser ist ein technischer Begriff; auf Englisch: Base circle diameter.",
+    "sentence": "In der Praxis wird Basisdurchmesser (Base circle diameter) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 434,
+    "german": "Schrägungsfehler",
+    "english": "Helix deviation",
+    "definition": "Schrägungsfehler ist ein technischer Begriff; auf Englisch: Helix deviation.",
+    "sentence": "In der Praxis wird Schrägungsfehler (Helix deviation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 435,
+    "german": "Profilabweichung",
+    "english": "Profile deviation",
+    "definition": "Profilabweichung ist ein technischer Begriff; auf Englisch: Profile deviation.",
+    "sentence": "In der Praxis wird Profilabweichung (Profile deviation) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 436,
+    "german": "Teilungsfehler",
+    "english": "Pitch error",
+    "definition": "Teilungsfehler ist ein technischer Begriff; auf Englisch: Pitch error.",
+    "sentence": "In der Praxis wird Teilungsfehler (Pitch error) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 437,
+    "german": "Zahnformfehler",
+    "english": "Tooth form error",
+    "definition": "Zahnformfehler ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnformfehler, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 438,
+    "german": "Flankenpressung",
+    "english": "Contact stress",
+    "definition": "Flankenpressung ist ein technischer Begriff; auf Englisch: Contact stress.",
+    "sentence": "In der Praxis wird Flankenpressung (Contact stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 439,
+    "german": "Hertzsche",
+    "english": "Pressung Hertzian stress",
+    "definition": "Hertzsche ist ein technischer Begriff; auf Englisch: Pressung Hertzian stress.",
+    "sentence": "In der Praxis wird Hertzsche (Pressung Hertzian stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 440,
+    "german": "Biegebeanspruchung",
+    "english": "Bending stress",
+    "definition": "Biegebeanspruchung ist ein technischer Begriff; auf Englisch: Bending stress.",
+    "sentence": "In der Praxis wird Biegebeanspruchung (Bending stress) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 441,
+    "german": "Dauerfestigkeit",
+    "english": "Fatigue strength",
+    "definition": "Dauerfestigkeit ist ein technischer Begriff; auf Englisch: Fatigue strength.",
+    "sentence": "In der Praxis wird Dauerfestigkeit (Fatigue strength) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 442,
+    "german": "Graufleckigkeit",
+    "english": "Micropitting",
+    "definition": "Graufleckigkeit ist ein technischer Begriff; auf Englisch: Micropitting.",
+    "sentence": "In der Praxis wird Graufleckigkeit (Micropitting) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 443,
+    "german": "Pitting",
+    "english": "Pitting",
+    "definition": "Pitting ist ein technischer Begriff; auf Englisch: Pitting.",
+    "sentence": "In der Praxis wird Pitting (Pitting) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 444,
+    "german": "Fressen",
+    "english": "Scuffing",
+    "definition": "Fressen ist ein technischer Begriff; auf Englisch: Scuffing.",
+    "sentence": "In der Praxis wird Fressen (Scuffing) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 445,
+    "german": "Verschleiß",
+    "english": "Wear",
+    "definition": "Verschleiß ist ein technischer Begriff; auf Englisch: Wear.",
+    "sentence": "In der Praxis wird Verschleiß (Wear) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 446,
+    "german": "Schmierstoffalterung",
+    "english": "Lubricant aging",
+    "definition": "Schmierstoffalterung ist ein technischer Begriff; auf Englisch: Lubricant aging.",
+    "sentence": "Für bessere Standzeit wird Schmierstoffalterung korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 447,
+    "german": "Ölviskosität",
+    "english": "Oil viscosity",
+    "definition": "Ölviskosität ist ein technischer Begriff; auf Englisch: Oil viscosity.",
+    "sentence": "In der Praxis wird Ölviskosität (Oil viscosity) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 448,
+    "german": "Viskositätsklasse",
+    "english": "Viscosity grade",
+    "definition": "Viskositätsklasse ist ein technischer Begriff; auf Englisch: Viscosity grade.",
+    "sentence": "In der Praxis wird Viskositätsklasse (Viscosity grade) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 449,
+    "german": "ISO",
+    "english": "VG ISO viscosity grade",
+    "definition": "ISO bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird ISO als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 450,
+    "german": "DIN",
+    "english": "51517 DIN 51517",
+    "definition": "DIN bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird DIN als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 451,
+    "german": "Zahnradnorm",
+    "english": "Gear standard",
+    "definition": "Zahnradnorm ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Zahnradnorm, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 452,
+    "german": "ISO",
+    "english": "6336 ISO 6336",
+    "definition": "ISO bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird ISO als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 453,
+    "german": "DIN",
+    "english": "3960 DIN 3960",
+    "definition": "DIN bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird DIN als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 454,
+    "german": "DIN",
+    "english": "3961 DIN 3961",
+    "definition": "DIN bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird DIN als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 455,
+    "german": "DIN",
+    "english": "3962 DIN 3962",
+    "definition": "DIN bezeichnet eine technische Norm, die Anforderungen und Begriffe für Fertigungs- oder Prüfprozesse festlegt.",
+    "sentence": "Bei der Spezifikation wird DIN als Referenznorm herangezogen.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 456,
+    "german": "Koaxialität",
+    "english": "Coaxiality",
+    "definition": "Koaxialität ist ein technischer Begriff; auf Englisch: Coaxiality.",
+    "sentence": "In der Praxis wird Koaxialität (Coaxiality) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 457,
+    "german": "Parallelität",
+    "english": "Parallelism",
+    "definition": "Parallelität ist ein technischer Begriff; auf Englisch: Parallelism.",
+    "sentence": "In der Praxis wird Parallelität (Parallelism) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 458,
+    "german": "Rundlauf",
+    "english": "Runout",
+    "definition": "Rundlauf ist ein technischer Begriff; auf Englisch: Runout.",
+    "sentence": "In der Praxis wird Rundlauf (Runout) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 459,
+    "german": "Axialrundlauf",
+    "english": "Axial runout",
+    "definition": "Axialrundlauf ist ein technischer Begriff; auf Englisch: Axial runout.",
+    "sentence": "In der Praxis wird Axialrundlauf (Axial runout) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 460,
+    "german": "Planlauf",
+    "english": "Face runout",
+    "definition": "Planlauf ist ein technischer Begriff; auf Englisch: Face runout.",
+    "sentence": "In der Praxis wird Planlauf (Face runout) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 461,
+    "german": "Wuchtgüte",
+    "english": "Balance quality",
+    "definition": "Wuchtgüte ist ein technischer Begriff; auf Englisch: Balance quality.",
+    "sentence": "In der Praxis wird Wuchtgüte (Balance quality) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 462,
+    "german": "Unwucht",
+    "english": "Unbalance",
+    "definition": "Unwucht ist ein technischer Begriff; auf Englisch: Unbalance.",
+    "sentence": "In der Praxis wird Unwucht (Unbalance) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 463,
+    "german": "Ausgleichsbohrung",
+    "english": "Balancing hole",
+    "definition": "Ausgleichsbohrung ist ein technischer Begriff; auf Englisch: Balancing hole.",
+    "sentence": "In der Praxis wird Ausgleichsbohrung (Balancing hole) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 464,
+    "german": "Drehmomentstütze",
+    "english": "Torque arm",
+    "definition": "Drehmomentstütze ist ein technischer Begriff; auf Englisch: Torque arm.",
+    "sentence": "In der Praxis wird Drehmomentstütze (Torque arm) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 465,
+    "german": "Getriebefuß",
+    "english": "Gearbox foot",
+    "definition": "Getriebefuß ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebefuß, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 466,
+    "german": "Flanschgetriebe",
+    "english": "Flange-mounted gearbox",
+    "definition": "Flanschgetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Flanschgetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 467,
+    "german": "Hohlwellengetriebe",
+    "english": "Hollow-shaft gearbox",
+    "definition": "Hohlwellengetriebe ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Hohlwellengetriebe, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 468,
+    "german": "Schrumpfscheibe",
+    "english": "Shrink disc",
+    "definition": "Schrumpfscheibe ist ein technischer Begriff; auf Englisch: Shrink disc.",
+    "sentence": "In der Praxis wird Schrumpfscheibe (Shrink disc) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 469,
+    "german": "Klemmnabe",
+    "english": "Clamping hub",
+    "definition": "Klemmnabe ist ein technischer Begriff; auf Englisch: Clamping hub.",
+    "sentence": "In der Praxis wird Klemmnabe (Clamping hub) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 470,
+    "german": "Drehmomentabstützung",
+    "english": "Torque reaction support",
+    "definition": "Drehmomentabstützung ist ein technischer Begriff; auf Englisch: Torque reaction support.",
+    "sentence": "In der Praxis wird Drehmomentabstützung (Torque reaction support) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 471,
+    "german": "Rücklaufsperre",
+    "english": "Backstop",
+    "definition": "Rücklaufsperre ist ein technischer Begriff; auf Englisch: Backstop.",
+    "sentence": "In der Praxis wird Rücklaufsperre (Backstop) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 472,
+    "german": "Freilauf",
+    "english": "Freewheel",
+    "definition": "Freilauf bezeichnet einen Fachbegriff aus dem Schleifen (Prozess, Werkzeug, Parameter oder Prozesszustand).",
+    "sentence": "In der Praxis wird Freilauf (Freewheel) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 473,
+    "german": "Übertragungsleistung",
+    "english": "Power transmission capacity",
+    "definition": "Übertragungsleistung ist ein technischer Begriff; auf Englisch: Power transmission capacity.",
+    "sentence": "In der Praxis wird Übertragungsleistung (Power transmission capacity) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 474,
+    "german": "Nennleistung",
+    "english": "Rated power",
+    "definition": "Nennleistung ist ein technischer Begriff; auf Englisch: Rated power.",
+    "sentence": "In der Praxis wird Nennleistung (Rated power) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 475,
+    "german": "Spitzenmoment",
+    "english": "Peak torque",
+    "definition": "Spitzenmoment ist ein technischer Begriff; auf Englisch: Peak torque.",
+    "sentence": "In der Praxis wird Spitzenmoment (Peak torque) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 476,
+    "german": "Betriebsfaktor",
+    "english": "Service factor",
+    "definition": "Betriebsfaktor ist ein technischer Begriff; auf Englisch: Service factor.",
+    "sentence": "In der Praxis wird Betriebsfaktor (Service factor) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 477,
+    "german": "Lastkollektiv",
+    "english": "Load spectrum",
+    "definition": "Lastkollektiv ist ein technischer Begriff; auf Englisch: Load spectrum.",
+    "sentence": "In der Praxis wird Lastkollektiv (Load spectrum) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 478,
+    "german": "Stoßbelastung",
+    "english": "Shock load",
+    "definition": "Stoßbelastung ist ein technischer Begriff; auf Englisch: Shock load.",
+    "sentence": "In der Praxis wird Stoßbelastung (Shock load) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 479,
+    "german": "Schwingungsdämpfer",
+    "english": "Vibration damper",
+    "definition": "Schwingungsdämpfer ist ein technischer Begriff; auf Englisch: Vibration damper.",
+    "sentence": "In der Praxis wird Schwingungsdämpfer (Vibration damper) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 480,
+    "german": "Getriebesteifigkeit",
+    "english": "Gearbox stiffness",
+    "definition": "Getriebesteifigkeit ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebesteifigkeit, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 481,
+    "german": "Torsionssteifigkeit",
+    "english": "Torsional stiffness",
+    "definition": "Torsionssteifigkeit ist ein technischer Begriff; auf Englisch: Torsional stiffness.",
+    "sentence": "In der Praxis wird Torsionssteifigkeit (Torsional stiffness) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 482,
+    "german": "Verdrehwinkel",
+    "english": "Angle of twist",
+    "definition": "Verdrehwinkel ist ein technischer Begriff; auf Englisch: Angle of twist.",
+    "sentence": "In der Praxis wird Verdrehwinkel (Angle of twist) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 483,
+    "german": "Verdrehspiel",
+    "english": "Torsional backlash",
+    "definition": "Verdrehspiel ist ein technischer Begriff; auf Englisch: Torsional backlash.",
+    "sentence": "In der Praxis wird Verdrehspiel (Torsional backlash) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "Machining & CNC"
+  },
+  {
+    "id": 484,
+    "german": "Wirkungsgradverlust",
+    "english": "Efficiency loss",
+    "definition": "Wirkungsgradverlust ist ein technischer Begriff; auf Englisch: Efficiency loss.",
+    "sentence": "In der Praxis wird Wirkungsgradverlust (Efficiency loss) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 485,
+    "german": "Leistungsverlust",
+    "english": "Power loss",
+    "definition": "Leistungsverlust ist ein technischer Begriff; auf Englisch: Power loss.",
+    "sentence": "In der Praxis wird Leistungsverlust (Power loss) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 486,
+    "german": "Schmierintervall",
+    "english": "Lubrication interval",
+    "definition": "Schmierintervall ist ein technischer Begriff; auf Englisch: Lubrication interval.",
+    "sentence": "Für bessere Standzeit wird Schmierintervall korrekt eingestellt bzw. zugeführt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 487,
+    "german": "Wartungsintervall",
+    "english": "Maintenance interval",
+    "definition": "Wartungsintervall ist ein technischer Begriff; auf Englisch: Maintenance interval.",
+    "sentence": "In der Praxis wird Wartungsintervall (Maintenance interval) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 488,
+    "german": "Zustandsüberwachung",
+    "english": "Condition monitoring",
+    "definition": "Zustandsüberwachung ist ein technischer Begriff; auf Englisch: Condition monitoring.",
+    "sentence": "In der Praxis wird Zustandsüberwachung (Condition monitoring) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 489,
+    "german": "Ölanalyse",
+    "english": "Oil analysis",
+    "definition": "Ölanalyse ist ein technischer Begriff; auf Englisch: Oil analysis.",
+    "sentence": "In der Praxis wird Ölanalyse (Oil analysis) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 490,
+    "german": "Partikelzählung",
+    "english": "Particle count",
+    "definition": "Partikelzählung ist ein technischer Begriff; auf Englisch: Particle count.",
+    "sentence": "In der Praxis wird Partikelzählung (Particle count) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 491,
+    "german": "Vibrationsanalyse",
+    "english": "Vibration analysis",
+    "definition": "Vibrationsanalyse ist ein technischer Begriff; auf Englisch: Vibration analysis.",
+    "sentence": "In der Praxis wird Vibrationsanalyse (Vibration analysis) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 492,
+    "german": "Thermografie",
+    "english": "Thermography",
+    "definition": "Thermografie ist ein technischer Begriff; auf Englisch: Thermography.",
+    "sentence": "In der Praxis wird Thermografie (Thermography) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 493,
+    "german": "Schadensanalyse",
+    "english": "Failure analysis",
+    "definition": "Schadensanalyse ist ein technischer Begriff; auf Englisch: Failure analysis.",
+    "sentence": "In der Praxis wird Schadensanalyse (Failure analysis) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 494,
+    "german": "Getriebeschaden",
+    "english": "Gearbox failure",
+    "definition": "Getriebeschaden ist ein Begriff aus der Getriebetechnik und beschreibt ein Bauteil, Merkmal oder eine Kenngröße.",
+    "sentence": "Die Auslegung berücksichtigt Getriebeschaden, um Geräusch und Verschleiß zu reduzieren.",
+    "topic": "Gearbox & Mechanics"
+  },
+  {
+    "id": 495,
+    "german": "Notlaufeigenschaft",
+    "english": "Emergency running property",
+    "definition": "Notlaufeigenschaft ist ein technischer Begriff; auf Englisch: Emergency running property.",
+    "sentence": "In der Praxis wird Notlaufeigenschaft (Emergency running property) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 496,
+    "german": "Leckage",
+    "english": "Leakage",
+    "definition": "Leckage ist ein technischer Begriff; auf Englisch: Leakage.",
+    "sentence": "In der Praxis wird Leckage (Leakage) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 497,
+    "german": "Entlüftungsschraube",
+    "english": "Breather screw",
+    "definition": "Entlüftungsschraube ist ein technischer Begriff; auf Englisch: Breather screw.",
+    "sentence": "In der Praxis wird Entlüftungsschraube (Breather screw) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 498,
+    "german": "Ablassschraube",
+    "english": "Drain plug",
+    "definition": "Ablassschraube ist ein technischer Begriff; auf Englisch: Drain plug.",
+    "sentence": "In der Praxis wird Ablassschraube (Drain plug) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 499,
+    "german": "Einfüllschraube",
+    "english": "Filler plug",
+    "definition": "Einfüllschraube ist ein technischer Begriff; auf Englisch: Filler plug.",
+    "sentence": "In der Praxis wird Einfüllschraube (Filler plug) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  },
+  {
+    "id": 500,
+    "german": "Typenschild",
+    "english": "Nameplate",
+    "definition": "Typenschild ist ein technischer Begriff; auf Englisch: Nameplate.",
+    "sentence": "In der Praxis wird Typenschild (Nameplate) häufig in Arbeitsanweisungen und technischen Zeichnungen erwähnt.",
+    "topic": "General Manufacturing"
+  }
+]
