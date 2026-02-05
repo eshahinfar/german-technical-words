@@ -200,6 +200,57 @@ function logReview(PDO $pdo, int $userId, int $cardId, bool $correct): void {
   $stmt = $pdo->prepare("INSERT INTO review_log(user_id, ts, card_id, correct) VALUES(:u, :t, :c, :ok)");
   $stmt->execute([':u'=>$userId, ':t'=>nowIso(), ':c'=>$cardId, ':ok'=>($correct?1:0)]);
 }
+function nextDueForBox(array $intervals, int $box): string {
+  $days = $intervals[$box] ?? 0;
+  return (new DateTimeImmutable('now'))->modify('+'.$days.' days')->format('c');
+}
+function applyAnkiRating(PDO $pdo, int $userId, int $cardId, string $rating, array $intervals): void {
+  $p = getProgress($pdo, $userId, $cardId);
+  $box = $p ? (int)$p['box'] : 1;
+  $currentLearned = $p ? (int)$p['learned'] : 0;
+  $correctCount = $p ? (int)$p['correct_count'] : 0;
+  $wrongCount = $p ? (int)$p['wrong_count'] : 0;
+
+  switch ($rating) {
+    case 'again':
+      $box = 1;
+      $learned = $currentLearned;
+      $correct = false;
+      $wrongCount++;
+      break;
+    case 'hard':
+      $box = max(1, $box - 1);
+      $learned = 1;
+      $correct = true;
+      $correctCount++;
+      break;
+    case 'easy':
+      $box = min(5, $box + 2);
+      $learned = 1;
+      $correct = true;
+      $correctCount++;
+      break;
+    case 'good':
+    default:
+      $box = min(5, $box + 1);
+      $learned = 1;
+      $correct = true;
+      $correctCount++;
+      break;
+  }
+
+  $fields = [
+    'box' => $box,
+    'learned' => $learned,
+    'last_reviewed' => nowIso(),
+    'next_due' => nextDueForBox($intervals, $box),
+    'correct_count' => $correctCount,
+    'wrong_count' => $wrongCount,
+  ];
+  if (!$p || ($p['introduced_at'] ?? '') === '') $fields['introduced_at'] = nowIso();
+  upsertProgress($pdo, $userId, $cardId, $fields);
+  logReview($pdo, $userId, $cardId, $correct);
+}
 function stats(PDO $pdo, int $userId): array {
   $stmt = $pdo->prepare("
     SELECT
@@ -472,6 +523,14 @@ if($_SERVER['REQUEST_METHOD']==='POST' && $page==='settings' && $user && ($_POST
   $message='Settings saved.';
   $user=currentUser($pdo);
 }
+if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='anki_grade' && $user){
+  $cardId = (int)($_POST['card_id'] ?? 0);
+  $rating = (string)($_POST['rating'] ?? 'good');
+  if($cardId > 0) applyAnkiRating($pdo, (int)$user['id'], $cardId, $rating, $LEITNER_INTERVAL_DAYS);
+  $return = (string)($_POST['return'] ?? '?page=study');
+  header('Location: '.$return);
+  exit;
+}
 if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='grade' && $user){
   $cardId=(int)($_POST['card_id']??0);
   $dir=(string)($_POST['dir']??'de_en');
@@ -668,6 +727,18 @@ function headerHtml(?array $user): void { ?>
   }
   .btn2:hover{background:rgba(255,255,255,.10)}
   .btn2:active{transform:translateY(1px)}
+
+  .btn-anki{
+    padding:10px 12px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,.16);
+    font-weight:700;
+    cursor:pointer;
+  }
+  .anki-again{background:rgba(255,142,161,.15); color:var(--bad);}
+  .anki-hard{background:rgba(255,200,120,.14); color:#ffd9a1;}
+  .anki-good{background:rgba(158,193,255,.16); color:var(--brand);}
+  .anki-easy{background:rgba(124,255,178,.14); color:var(--ok);}
 
   input,select{
     width:100%;
@@ -1085,6 +1156,17 @@ if($page==='study'){
         <div><b>English:</b> <?=h($c['english'])?></div>
         <div style="margin-top:8px"><b>Definition:</b> <?=h($c['definition'])?></div>
         <div style="margin-top:8px"><b>Example:</b> <?=h($c['sentence'])?></div>
+        <div class="hr"></div>
+        <div class="muted mini">Anki-style review</div>
+        <form method="post" class="row" style="margin-top:8px">
+          <input type="hidden" name="action" value="anki_grade">
+          <input type="hidden" name="card_id" value="<?=h((string)$cid)?>">
+          <input type="hidden" name="return" value="<?=h($_SERVER['REQUEST_URI'])?>">
+          <button class="btn-anki anki-again" type="submit" name="rating" value="again">Again</button>
+          <button class="btn-anki anki-hard" type="submit" name="rating" value="hard">Hard</button>
+          <button class="btn-anki anki-good" type="submit" name="rating" value="good">Good</button>
+          <button class="btn-anki anki-easy" type="submit" name="rating" value="easy">Easy</button>
+        </form>
       </div>
     </div>
   <?php endforeach; ?>
