@@ -241,20 +241,20 @@ function applyAnkiRating(PDO $pdo, int $userId, int $cardId, string $rating, arr
       $wrongCount++;
       break;
     case 'hard':
-      $box = max(1, $box);
+      $box = 2;
       $learned = 1;
       $correct = true;
       $correctCount++;
       break;
     case 'easy':
-      $box = min(4, $box + 2);
+      $box = 4;
       $learned = 1;
       $correct = true;
       $correctCount++;
       break;
     case 'good':
     default:
-      $box = min(4, $box + 1);
+      $box = 3;
       $learned = 1;
       $correct = true;
       $correctCount++;
