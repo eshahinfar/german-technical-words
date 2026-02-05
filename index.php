@@ -6,7 +6,21 @@ session_start();
 const DB_PATH   = __DIR__ . '/data/app.db';
 const CARDS_JSON = __DIR__ . '/cards.json';
 
-$LEITNER_INTERVAL_DAYS = [1 => 0, 2 => 1, 3 => 3, 4 => 7, 5 => 14];
+$LEITNER_INTERVAL_DAYS = [1 => 0, 2 => 1, 3 => 3, 4 => 7];
+
+function boxLabel(int $box): string {
+  switch ($box) {
+    case 1:
+      return 'Again';
+    case 2:
+      return 'Hard';
+    case 3:
+      return 'Good';
+    case 4:
+    default:
+      return 'Easy';
+  }
+}
 
 const DEFAULT_NEW_PER_DAY = 20;
 const DEFAULT_STRICT = 0;
@@ -214,6 +228,7 @@ function nextDueForBox(array $intervals, int $box): string {
 function applyAnkiRating(PDO $pdo, int $userId, int $cardId, string $rating, array $intervals): void {
   $p = getProgress($pdo, $userId, $cardId);
   $box = $p ? (int)$p['box'] : 1;
+  $box = min(4, max(1, $box));
   $currentLearned = $p ? (int)$p['learned'] : 0;
   $correctCount = $p ? (int)$p['correct_count'] : 0;
   $wrongCount = $p ? (int)$p['wrong_count'] : 0;
@@ -226,20 +241,20 @@ function applyAnkiRating(PDO $pdo, int $userId, int $cardId, string $rating, arr
       $wrongCount++;
       break;
     case 'hard':
-      $box = max(1, $box - 1);
+      $box = 2;
       $learned = 1;
       $correct = true;
       $correctCount++;
       break;
     case 'easy':
-      $box = min(5, $box + 2);
+      $box = 4;
       $learned = 1;
       $correct = true;
       $correctCount++;
       break;
     case 'good':
     default:
-      $box = min(5, $box + 1);
+      $box = 3;
       $learned = 1;
       $correct = true;
       $correctCount++;
@@ -267,8 +282,7 @@ function stats(PDO $pdo, int $userId): array {
       SUM(CASE WHEN box=1 THEN 1 ELSE 0 END) AS b1,
       SUM(CASE WHEN box=2 THEN 1 ELSE 0 END) AS b2,
       SUM(CASE WHEN box=3 THEN 1 ELSE 0 END) AS b3,
-      SUM(CASE WHEN box=4 THEN 1 ELSE 0 END) AS b4,
-      SUM(CASE WHEN box=5 THEN 1 ELSE 0 END) AS b5
+      SUM(CASE WHEN box>=4 THEN 1 ELSE 0 END) AS b4
     FROM progress WHERE user_id = :u
   ");
   $stmt->execute([':u'=>$userId, ':now'=>nowIso()]);
@@ -276,11 +290,15 @@ function stats(PDO $pdo, int $userId): array {
   return array_map('intval', $r);
 }
 function dueCardIds(PDO $pdo, int $userId, ?int $boxFilter, int $limit): array {
-  $sql="SELECT card_id FROM progress WHERE user_id=:u ".($boxFilter!==null?"AND box=:b ":"")." AND (next_due IS NULL OR next_due <= :now)
+  $boxClause = '';
+  if ($boxFilter !== null) {
+    $boxClause = ($boxFilter >= 4) ? "AND box >= :b " : "AND box = :b ";
+  }
+  $sql="SELECT card_id FROM progress WHERE user_id=:u ".$boxClause." AND (next_due IS NULL OR next_due <= :now)
         ORDER BY COALESCE(next_due,'1970-01-01T00:00:00Z') ASC, box ASC LIMIT :lim";
   $stmt=$pdo->prepare($sql);
   $stmt->bindValue(':u',$userId,PDO::PARAM_INT);
-  if($boxFilter!==null) $stmt->bindValue(':b',$boxFilter,PDO::PARAM_INT);
+  if($boxFilter!==null) $stmt->bindValue(':b', min(4, max(1, $boxFilter)), PDO::PARAM_INT);
   $stmt->bindValue(':now',nowIso(),PDO::PARAM_STR);
   $stmt->bindValue(':lim',$limit,PDO::PARAM_INT);
   $stmt->execute();
@@ -571,7 +589,7 @@ if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='grade' && $u
   $p=getProgress($pdo,(int)$user['id'],$cardId);
   $box=$p?(int)$p['box']:1;
   if($correct){
-    $box=min(5,$box+1);
+    $box=min(4,$box+1);
     $fields=['box'=>$box,'learned'=>1,'last_reviewed'=>nowIso(),
              'next_due'=>(new DateTimeImmutable('now'))->modify('+'.$LEITNER_INTERVAL_DAYS[$box].' days')->format('c'),
              'correct_count'=>($p?(int)$p['correct_count']:0)+1];
@@ -929,13 +947,12 @@ if($page==='home'){
         <span class="badge">Best: <?=h((string)$st['best'])?> days</span>
       </div>
       <div class="hr"></div>
-      <div class="muted">Boxes:</div>
+      <div class="muted">Anki boxes:</div>
       <div class="row" style="margin-top:8px">
-        <span class="badge">B1 <?=h((string)$s['b1'])?></span>
-        <span class="badge">B2 <?=h((string)$s['b2'])?></span>
-        <span class="badge">B3 <?=h((string)$s['b3'])?></span>
-        <span class="badge">B4 <?=h((string)$s['b4'])?></span>
-        <span class="badge">B5 <?=h((string)$s['b5'])?></span>
+        <span class="badge"><?=h(boxLabel(1))?> <?=h((string)$s['b1'])?></span>
+        <span class="badge"><?=h(boxLabel(2))?> <?=h((string)$s['b2'])?></span>
+        <span class="badge"><?=h(boxLabel(3))?> <?=h((string)$s['b3'])?></span>
+        <span class="badge"><?=h(boxLabel(4))?> <?=h((string)$s['b4'])?></span>
       </div>
       <div class="hr"></div>
       <span class="badge">Learned: <?=h((string)$s['learned'])?></span>
@@ -1056,7 +1073,14 @@ if($page==='learned'){
   $rows=$stmt->fetchAll(PDO::FETCH_ASSOC);
   $items=[];
   foreach($rows as $r){
-    if($boxFilter!==null && (int)$r['box']!==$boxFilter) continue;
+    if($boxFilter!==null){
+      $boxValue = (int)$r['box'];
+      if ($boxFilter >= 4) {
+        if ($boxValue < 4) continue;
+      } elseif ($boxValue !== $boxFilter) {
+        continue;
+      }
+    }
     $cid=(int)$r['card_id']; if(!isset($cardById[$cid])) continue;
     $c=$cardById[$cid];
     if($topic!==null && $c['topic']!==$topic) continue;
@@ -1077,9 +1101,9 @@ if($page==='learned'){
           <?php foreach($topics as $t): ?><option value="<?=h($t)?>" <?=($topic===$t)?'selected':''?>><?=h($t)?></option><?php endforeach; ?>
         </select>
       </div>
-      <div class="col6"><label class="muted">Box</label>
+      <div class="col6"><label class="muted">Anki box</label>
         <select name="box"><option value="">All</option>
-          <?php for($b=1;$b<=5;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>>Box <?=$b?></option><?php endfor; ?>
+          <?php for($b=1;$b<=4;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>><?=h(boxLabel($b))?></option><?php endfor; ?>
         </select>
       </div>
       <div class="col6"><label class="muted">Max results</label><input type="number" name="limit" min="10" max="200" value="<?=h((string)$limit)?>"></div>
@@ -1089,7 +1113,7 @@ if($page==='learned'){
   <?php foreach($items as $it): $c=$it['c']; $p=$it['p']; ?>
     <div class="card">
       <div class="row" style="justify-content:space-between">
-        <div class="row"><span class="pill"><?=h($c['topic'])?></span><span class="badge">Box <?=h((string)$p['box'])?></span></div>
+        <div class="row"><span class="pill"><?=h($c['topic'])?></span><span class="badge"><?=h(boxLabel(min(4, max(1, (int)$p['box']))))?></span></div>
         <div class="row">
           <button class="btn2" type="button" onclick="speak('<?=h(addslashes($c['german']))?>','de-DE')">🔊 DE</button>
           <button class="btn2" type="button" onclick="speak('<?=h(addslashes($c['english']))?>','en-US')">🔊 EN</button>
@@ -1149,9 +1173,9 @@ if($page==='study'){
           <?php foreach($topics as $t): ?><option value="<?=h($t)?>" <?=($topic===$t)?'selected':''?>><?=h($t)?></option><?php endforeach; ?>
         </select>
       </div>
-      <div class="col6"><label class="muted">Box filter (due)</label>
+      <div class="col6"><label class="muted">Anki box filter (due)</label>
         <select name="box"><option value="">All</option>
-          <?php for($b=1;$b<=5;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>>Box <?=$b?></option><?php endfor; ?>
+          <?php for($b=1;$b<=4;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>><?=h(boxLabel($b))?></option><?php endfor; ?>
         </select>
       </div>
       <div class="col6"><label class="muted">Cards to show</label><input type="number" name="limit" min="5" max="50" value="<?=h((string)$limit)?>"></div>
@@ -1165,7 +1189,7 @@ if($page==='study'){
     $p=getProgress($pdo,(int)$user['id'],$cid); $box=$p?(int)$p['box']:1; $ansId="ans_$cid"; ?>
     <div class="card">
       <div class="row" style="justify-content:space-between">
-        <div class="row"><span class="pill"><?=h($c['topic'])?></span><span class="badge">Card #<?=$cid?></span><span class="badge">Box <?=$box?></span></div>
+        <div class="row"><span class="pill"><?=h($c['topic'])?></span><span class="badge">Card #<?=$cid?></span><span class="badge"><?=h(boxLabel(min(4, max(1, $box))))?></span></div>
         <div class="row">
           <button class="btn2" type="button" onclick="speak('<?=h(addslashes($c['german']))?>','de-DE')">🔊 DE</button>
           <button class="btn2" type="button" onclick="speak('<?=h(addslashes($c['english']))?>','en-US')">🔊 EN</button>
@@ -1319,8 +1343,8 @@ if($page==='quiz'){
         <div class="col6"><label class="muted">Topic</label>
           <select name="topic"><option value="">All</option><?php foreach($topics as $t): ?><option value="<?=h($t)?>" <?=($topic===$t)?'selected':''?>><?=h($t)?></option><?php endforeach; ?></select>
         </div>
-        <div class="col6"><label class="muted">Box (due)</label>
-          <select name="box"><option value="">All</option><?php for($b=1;$b<=5;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>>Box <?=$b?></option><?php endfor; ?></select>
+        <div class="col6"><label class="muted">Anki box (due)</label>
+          <select name="box"><option value="">All</option><?php for($b=1;$b<=4;$b++): ?><option value="<?=$b?>" <?=($boxFilter===$b)?'selected':''?>><?=h(boxLabel($b))?></option><?php endfor; ?></select>
         </div>
         <div class="col6"><label class="muted">Questions/session</label><input type="number" name="limit" min="5" max="50" value="<?=h((string)$limit)?>"></div>
         <div class="col12"><button class="btn2" type="submit">Apply</button></div>
@@ -1352,7 +1376,7 @@ if($page==='progress'){
       <span class="badge">Tracked: <?=h((string)$s['tracked'])?></span>
       <span class="badge">Learned: <?=h((string)$s['learned'])?></span>
       <span class="badge">Due: <?=h((string)$s['due'])?></span>
-      <span class="badge">Boxes: B1 <?=h((string)$s['b1'])?> · B2 <?=h((string)$s['b2'])?> · B3 <?=h((string)$s['b3'])?> · B4 <?=h((string)$s['b4'])?> · B5 <?=h((string)$s['b5'])?></span>
+      <span class="badge">Anki boxes: <?=h(boxLabel(1))?> <?=h((string)$s['b1'])?> · <?=h(boxLabel(2))?> <?=h((string)$s['b2'])?> · <?=h(boxLabel(3))?> <?=h((string)$s['b3'])?> · <?=h(boxLabel(4))?> <?=h((string)$s['b4'])?></span>
     </div>
   </div>
 
