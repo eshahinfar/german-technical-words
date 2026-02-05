@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 session_start();
 
 // -------------------- CONFIG --------------------
@@ -49,6 +48,7 @@ function initDb(PDO $pdo): void {
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL UNIQUE,
+      email TEXT NULL,
       password_hash TEXT NULL,
       created_at TEXT NOT NULL,
       strict_grading INTEGER NOT NULL DEFAULT 0,
@@ -58,6 +58,7 @@ function initDb(PDO $pdo): void {
     );
   ");
   foreach ([
+    "ALTER TABLE users ADD COLUMN email TEXT NULL",
     "ALTER TABLE users ADD COLUMN password_hash TEXT NULL",
     "ALTER TABLE users ADD COLUMN created_at TEXT NOT NULL DEFAULT ''",
     "ALTER TABLE users ADD COLUMN strict_grading INTEGER NOT NULL DEFAULT 0",
@@ -173,19 +174,27 @@ function login(PDO $pdo, string $name, string $password): bool {
   }
   return false;
 }
-function registerUser(PDO $pdo, string $name, string $password): array {
+function registerUser(PDO $pdo, string $name, string $email, string $password, string $captchaAnswer): array {
   $name = trim($name);
   $name = preg_replace('/[^a-zA-Z0-9_\- ]+/', '', $name) ?? '';
   if ($name === '') $name = 'user';
+  $email = trim($email);
+  if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    return [false, "Enter a valid email address."];
+  }
   if (mb_strlen($password) < 6) return [false, "Password must be at least 6 characters."];
+  $expected = (string)($_SESSION['captcha_expected'] ?? '');
+  if ($expected === '' || trim($captchaAnswer) !== $expected) {
+    return [false, "Captcha answer is incorrect."];
+  }
   $hash = password_hash($password, PASSWORD_DEFAULT);
   try {
     $stmt = $pdo->prepare("
-      INSERT INTO users(name, password_hash, created_at, strict_grading, new_per_day, show_def_de, show_def_fa)
-      VALUES(:n, :h, :c, :s, :npd, :sdd, :sdf)
+      INSERT INTO users(name, email, password_hash, created_at, strict_grading, new_per_day, show_def_de, show_def_fa)
+      VALUES(:n, :e, :h, :c, :s, :npd, :sdd, :sdf)
     ");
     $stmt->execute([
-      ':n'=>$name, ':h'=>$hash, ':c'=>nowIso(),
+      ':n'=>$name, ':e'=>$email, ':h'=>$hash, ':c'=>nowIso(),
       ':s'=>DEFAULT_STRICT, ':npd'=>DEFAULT_NEW_PER_DAY,
       ':sdd'=>DEFAULT_SHOW_DEF_DE, ':sdf'=>DEFAULT_SHOW_DEF_FA
     ]);
@@ -417,18 +426,18 @@ function svgLine(array $vals, int $w=900, int $h=220, int $pad=20): string {
   }
   $poly = implode(" ", $pts);
   $svg = '<svg viewBox="0 0 '.$w.' '.$h.'" width="100%" height="'.$h.'" role="img" aria-label="progress chart">';
-  $svg .= '<rect x="0" y="0" width="'.$w.'" height="'.$h.'" rx="14" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.12)"/>';
+  $svg .= '<rect x="0" y="0" width="'.$w.'" height="'.$h.'" rx="14" fill="var(--card2)" stroke="var(--stroke)"/>';
   // grid lines
   for($g=0;$g<=4;$g++){
     $yy = $pad + ($h-2*$pad)*($g/4);
-    $svg .= '<line x1="'.$pad.'" y1="'.$yy.'" x2="'.($w-$pad).'" y2="'.$yy.'" stroke="rgba(255,255,255,.10)" stroke-width="1"/>';
+    $svg .= '<line x1="'.$pad.'" y1="'.$yy.'" x2="'.($w-$pad).'" y2="'.$yy.'" stroke="var(--stroke)" stroke-width="1"/>';
   }
-  $svg .= '<polyline fill="none" stroke="rgba(158,193,255,.85)" stroke-width="3" points="'.$poly.'"/>';
+  $svg .= '<polyline fill="none" stroke="var(--brand)" stroke-width="3" points="'.$poly.'"/>';
   // end dot
   $last = end($pts);
   if($last){
     [$lx,$ly] = explode(",",$last);
-    $svg .= '<circle cx="'.$lx.'" cy="'.$ly.'" r="5" fill="rgba(158,193,255,.95)"/>';
+    $svg .= '<circle cx="'.$lx.'" cy="'.$ly.'" r="5" fill="var(--brand)"/>';
   }
   $svg .= '</svg>';
   return $svg;
@@ -459,6 +468,12 @@ function exportAll(PDO $pdo, int $userId): void {
   header('Content-Disposition: attachment; filename="leitner_backup.json"');
   echo json_encode(['exported_at'=>nowIso(),'settings'=>$settings,'progress'=>$progress,'review_log'=>$log], JSON_PRETTY_PRINT);
   exit;
+}
+function generateCaptcha(): array {
+  $a = random_int(2, 9);
+  $b = random_int(1, 9);
+  $_SESSION['captcha_expected'] = (string)($a + $b);
+  return ['question' => "What is $a + $b?"];
 }
 function importAll(PDO $pdo, int $userId, array $payload): array {
   if(!is_array($payload)) return [false,'Invalid JSON.'];
@@ -525,13 +540,19 @@ if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='login'){
   $message='Login failed.';
 }
 if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='register'){
-  [$ok,$msg]=registerUser($pdo,(string)($_POST['name']??''),(string)($_POST['password']??''));
+  [$ok,$msg]=registerUser(
+    $pdo,
+    (string)($_POST['name']??''),
+    (string)($_POST['email']??''),
+    (string)($_POST['password']??''),
+    (string)($_POST['captcha_answer']??'')
+  );
   $message=$msg;
   if($ok){ header('Location: ?page=home'); exit; }
 }
 
 $user=currentUser($pdo);
-if(!$user && $page!=='login'){ header('Location: ?page=login'); exit; }
+if(!$user && !in_array($page, ['login','register'], true)){ header('Location: ?page=login'); exit; }
 if($user) ensureProgressRows($pdo,(int)$user['id'], array_keys($cardById));
 $showDefDe=$user ? ((int)($user['show_def_de'] ?? DEFAULT_SHOW_DEF_DE)===1) : true;
 $showDefFa=$user ? ((int)($user['show_def_fa'] ?? DEFAULT_SHOW_DEF_FA)===1) : true;
@@ -621,6 +642,24 @@ function headerHtml(?array $user): void { ?>
 
 <style>
   :root{
+    --bg0:#f5f7fb;
+    --bg1:#e6eef9;
+    --card:#ffffff;
+    --card2:#f3f6fb;
+    --stroke:#d7e1ef;
+    --stroke2:#c5d3e6;
+    --text:#162439;
+    --muted:#4c5b72;
+    --muted2:#6b7a90;
+    --brand:#2b6cff;
+    --brand2:#3d8bff;
+    --ok:#1f9d63;
+    --bad:#d6475a;
+    --shadow:0 12px 28px rgba(22,36,57,.12);
+    --radius:18px;
+    --radius2:24px;
+  }
+  html[data-theme="dark"]{
     --bg0:#070a12;
     --bg1:#0b1220;
     --card:rgba(255,255,255,.06);
@@ -635,8 +674,6 @@ function headerHtml(?array $user): void { ?>
     --ok:#7CFFB2;
     --bad:#ff8ea1;
     --shadow:0 10px 30px rgba(0,0,0,.35);
-    --radius:18px;
-    --radius2:24px;
   }
 
   *{box-sizing:border-box}
@@ -646,15 +683,23 @@ function headerHtml(?array $user): void { ?>
     margin:0;
     color:var(--text);
     background:
-      radial-gradient(1200px 700px at 20% -10%, rgba(110,168,255,.25), transparent 60%),
-      radial-gradient(1000px 600px at 90% 0%, rgba(124,255,178,.14), transparent 55%),
+      radial-gradient(1200px 700px at 20% -10%, rgba(61,139,255,.18), transparent 60%),
+      radial-gradient(1000px 600px at 90% 0%, rgba(31,157,99,.12), transparent 55%),
       linear-gradient(180deg, var(--bg0), var(--bg1) 35%, var(--bg1));
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height:1.5;
+  }
+  html[data-theme="dark"] body{
+    background:
+      radial-gradient(1200px 700px at 20% -10%, rgba(110,168,255,.25), transparent 60%),
+      radial-gradient(1000px 600px at 90% 0%, rgba(124,255,178,.14), transparent 55%),
+      linear-gradient(180deg, var(--bg0), var(--bg1) 35%, var(--bg1));
   }
 
   a{color:var(--brand); text-decoration:none}
   a:hover{text-decoration:underline}
+  a:focus-visible{outline:3px solid rgba(43,108,255,.35); outline-offset:2px; border-radius:8px}
 
   .wrap{max-width:1100px;margin:0 auto;padding:14px}
   @media(max-width:480px){ .wrap{padding:10px} }
@@ -662,8 +707,11 @@ function headerHtml(?array $user): void { ?>
   .topbar{
     position:sticky; top:0; z-index:50;
     backdrop-filter:saturate(140%) blur(10px);
+    background:rgba(255,255,255,.85);
+    border-bottom:1px solid var(--stroke);
+  }
+  html[data-theme="dark"] .topbar{
     background:rgba(7,10,18,.55);
-    border-bottom:1px solid rgba(255,255,255,.10);
   }
   .topbar-inner{max-width:1100px;margin:0 auto;padding:10px 14px}
   @media(max-width:480px){ .topbar-inner{padding:10px} }
@@ -678,15 +726,15 @@ function headerHtml(?array $user): void { ?>
   }
   .logoDot{
     width:12px;height:12px;border-radius:999px;
-    background:linear-gradient(135deg, var(--brand2), rgba(124,255,178,.85));
-    box-shadow:0 0 0 4px rgba(158,193,255,.12);
+    background:linear-gradient(135deg, var(--brand2), rgba(31,157,99,.65));
+    box-shadow:0 0 0 4px rgba(43,108,255,.12);
   }
 
   .badge{
     padding:7px 10px;
-    border:1px solid rgba(255,255,255,.14);
+    border:1px solid var(--stroke);
     border-radius:999px;
-    background:rgba(255,255,255,.06);
+    background:var(--card2);
     font-size:12px;
     color:var(--muted);
     white-space:nowrap;
@@ -696,18 +744,31 @@ function headerHtml(?array $user): void { ?>
     display:flex;gap:8px;flex-wrap:wrap;align-items:center;
   }
   .nav a.badge{color:var(--text)}
-  .nav a.badge:hover{background:rgba(158,193,255,.14); border-color:rgba(158,193,255,.25); text-decoration:none}
+  .nav a.badge:hover{background:rgba(43,108,255,.12); border-color:rgba(43,108,255,.25); text-decoration:none}
 
   /* Mobile nav */
   .navToggle{
     display:none;
     width:44px;height:44px;
     border-radius:14px;
-    border:1px solid rgba(255,255,255,.14);
-    background:rgba(255,255,255,.06);
+    border:1px solid var(--stroke);
+    background:var(--card2);
     color:var(--text);
     cursor:pointer;
   }
+  .themeToggle{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:8px 12px;
+    border-radius:999px;
+    border:1px solid var(--stroke);
+    background:var(--card2);
+    color:var(--text);
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  .themeToggle:hover{background:#ffffff}
+  html[data-theme="dark"] .themeToggle:hover{background:rgba(255,255,255,.10)}
   .navMenu{
     display:flex;
   }
@@ -720,8 +781,8 @@ function headerHtml(?array $user): void { ?>
   }
 
   .card{
-    background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.05));
-    border:1px solid rgba(255,255,255,.12);
+    background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(243,246,251,.98));
+    border:1px solid var(--stroke);
     border-radius:var(--radius2);
     padding:14px;
     margin:12px 0;
@@ -737,54 +798,58 @@ function headerHtml(?array $user): void { ?>
   @media(max-width:900px){.col6{grid-column:span 12}}
 
   .btn{
-    background:linear-gradient(135deg, rgba(110,168,255,.95), rgba(31,59,120,.95));
-    border:1px solid rgba(255,255,255,.16);
-    color:#08122a;
+    background:linear-gradient(135deg, rgba(43,108,255,.98), rgba(61,139,255,.95));
+    border:1px solid rgba(43,108,255,.35);
+    color:#ffffff;
     padding:12px 14px;
     border-radius:16px;
     cursor:pointer;
     font-weight:750;
-    box-shadow:0 10px 22px rgba(110,168,255,.18);
+    box-shadow:0 12px 22px rgba(43,108,255,.2);
   }
-  .btn:hover{filter:brightness(1.05)}
+  .btn:hover{filter:brightness(1.02)}
   .btn:active{transform:translateY(1px)}
+  .btn:focus-visible{outline:3px solid rgba(43,108,255,.35); outline-offset:2px}
 
   .btn2{
-    background:rgba(255,255,255,.06);
-    border:1px solid rgba(255,255,255,.16);
+    background:var(--card2);
+    border:1px solid var(--stroke);
     color:var(--text);
     padding:12px 14px;
     border-radius:16px;
     cursor:pointer;
     font-weight:650;
   }
-  .btn2:hover{background:rgba(255,255,255,.10)}
+  .btn2:hover{background:#ffffff}
+  html[data-theme="dark"] .btn2:hover{background:rgba(255,255,255,.10)}
   .btn2:active{transform:translateY(1px)}
+  .btn2:focus-visible{outline:3px solid rgba(43,108,255,.35); outline-offset:2px}
 
   .btn-anki{
     padding:10px 12px;
     border-radius:14px;
-    border:1px solid rgba(255,255,255,.16);
+    border:1px solid var(--stroke);
     font-weight:700;
     cursor:pointer;
   }
-  .anki-again{background:rgba(255,142,161,.15); color:var(--bad);}
-  .anki-hard{background:rgba(255,200,120,.14); color:#ffd9a1;}
-  .anki-good{background:rgba(158,193,255,.16); color:var(--brand);}
-  .anki-easy{background:rgba(124,255,178,.14); color:var(--ok);}
+  .anki-again{background:rgba(214,71,90,.12); color:var(--bad);}
+  .anki-hard{background:rgba(248,205,126,.3); color:#8a5b00;}
+  .anki-good{background:rgba(43,108,255,.12); color:var(--brand);}
+  .anki-easy{background:rgba(31,157,99,.12); color:var(--ok);}
 
   input,select{
     width:100%;
     padding:12px 14px;
     border-radius:16px;
-    border:1px solid rgba(255,255,255,.16);
-    background:rgba(0,0,0,.22);
+    border:1px solid var(--stroke);
+    background:var(--card);
     color:var(--text);
     outline:none;
   }
+  input::placeholder{color:var(--muted2)}
   input:focus,select:focus{
-    border-color:rgba(158,193,255,.45);
-    box-shadow:0 0 0 4px rgba(158,193,255,.14);
+    border-color:rgba(43,108,255,.45);
+    box-shadow:0 0 0 4px rgba(43,108,255,.14);
   }
   select{appearance:none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
     background-position: calc(100% - 18px) calc(1em + 2px), calc(100% - 13px) calc(1em + 2px);
@@ -802,26 +867,26 @@ function headerHtml(?array $user): void { ?>
     display:inline-block;
     padding:7px 10px;
     border-radius:999px;
-    background:rgba(158,193,255,.14);
-    border:1px solid rgba(158,193,255,.25);
+    background:rgba(43,108,255,.12);
+    border:1px solid rgba(43,108,255,.25);
     font-size:12px;
     color:var(--text);
   }
-  .hr{height:1px;background:rgba(255,255,255,.12);margin:14px 0}
+  .hr{height:1px;background:var(--stroke);margin:14px 0}
 
   .ok{color:var(--ok)}
   .bad{color:var(--bad)}
 
   .bar{
     height:10px;
-    background:rgba(255,255,255,.10);
+    background:rgba(43,108,255,.08);
     border-radius:999px;
     overflow:hidden;
-    border:1px solid rgba(255,255,255,.08);
+    border:1px solid var(--stroke);
   }
   .bar>span{
     display:block;height:100%;
-    background:linear-gradient(90deg, rgba(158,193,255,.75), rgba(124,255,178,.55));
+    background:linear-gradient(90deg, rgba(43,108,255,.75), rgba(31,157,99,.55));
   }
 
   details summary{list-style:none}
@@ -847,6 +912,10 @@ function headerHtml(?array $user): void { ?>
           <div class="badge">New/day: <?=h((string)$user['new_per_day'])?></div>
         <?php endif; ?>
       </div>
+      <button class="themeToggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span id="themeIcon" aria-hidden="true">🌞</span>
+        <span id="themeLabel">Light</span>
+      </button>
       <?php if($user): ?>
       <button class="navToggle" type="button" onclick="toggleNav()">☰</button>
       <div id="navMenu" class="navMenu">
@@ -879,6 +948,21 @@ function toggleNav(){
   if(!m) return;
   m.classList.toggle('open');
 }
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  const icon = document.getElementById('themeIcon');
+  const label = document.getElementById('themeLabel');
+  if (icon) icon.textContent = theme === 'dark' ? '🌙' : '🌞';
+  if (label) label.textContent = theme === 'dark' ? 'Dark' : 'Light';
+}
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', next);
+  applyTheme(next);
+}
+const savedTheme = localStorage.getItem('theme') || 'light';
+applyTheme(savedTheme);
 function speak(text, lang){
   if(!('speechSynthesis' in window)) { alert('Speech not supported in this browser.'); return; }
   const u = new SpeechSynthesisUtterance(text); u.lang = lang;
@@ -895,33 +979,48 @@ if($page==='login'){ ?>
   <div class="card">
     <h2>Login</h2>
     <?php if($message): ?><div class="badge"><?=h($message)?></div><?php endif; ?>
-    <div class="grid" style="margin-top:10px">
-      <div class="col6 card">
-        <h3>Sign in</h3>
-        <form method="post">
-          <input type="hidden" name="action" value="login">
-          <label class="muted">Username</label>
-          <input name="name" required>
-          <div style="height:10px"></div>
-          <label class="muted">Password</label>
-          <input type="password" name="password" required>
-          <div style="height:12px"></div>
-          <button class="btn" type="submit">Login</button>
-        </form>
-      </div>
-      <div class="col6 card">
-        <h3>Create account</h3>
-        <form method="post">
-          <input type="hidden" name="action" value="register">
-          <label class="muted">Username</label>
-          <input name="name" required>
-          <div style="height:10px"></div>
-          <label class="muted">Password (min 6 chars)</label>
-          <input type="password" name="password" required>
-          <div style="height:12px"></div>
-          <button class="btn2" type="submit">Register</button>
-        </form>
-      </div>
+    <div class="card" style="margin-top:10px">
+      <h3>Sign in</h3>
+      <form method="post">
+        <input type="hidden" name="action" value="login">
+        <label class="muted">Username</label>
+        <input name="name" required>
+        <div style="height:10px"></div>
+        <label class="muted">Password</label>
+        <input type="password" name="password" required>
+        <div style="height:12px"></div>
+        <button class="btn" type="submit">Login</button>
+      </form>
+      <div class="hr"></div>
+      <div class="muted">New here? <a href="?page=register">Create an account</a>.</div>
+    </div>
+  </div>
+<?php footerHtml(); exit; }
+
+if($page==='register'){ ?>
+  <div class="card">
+    <h2>Create account</h2>
+    <?php if($message): ?><div class="badge"><?=h($message)?></div><?php endif; ?>
+    <div class="card" style="margin-top:10px">
+      <form method="post">
+        <?php $captcha = generateCaptcha(); ?>
+        <input type="hidden" name="action" value="register">
+        <label class="muted">Username</label>
+        <input name="name" required>
+        <div style="height:10px"></div>
+        <label class="muted">Email</label>
+        <input type="email" name="email" autocomplete="email" required>
+        <div style="height:10px"></div>
+        <label class="muted">Password (min 6 chars)</label>
+        <input type="password" name="password" required>
+        <div style="height:12px"></div>
+        <label class="muted">Captcha: <?=h($captcha['question'])?></label>
+        <input name="captcha_answer" inputmode="numeric" autocomplete="off" required>
+        <div style="height:12px"></div>
+        <button class="btn2" type="submit">Register</button>
+      </form>
+      <div class="hr"></div>
+      <div class="muted">Already have an account? <a href="?page=login">Sign in</a>.</div>
     </div>
   </div>
 <?php footerHtml(); exit; }
