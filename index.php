@@ -226,7 +226,7 @@ function applyAnkiRating(PDO $pdo, int $userId, int $cardId, string $rating, arr
       $wrongCount++;
       break;
     case 'hard':
-      $box = max(1, $box - 1);
+      $box = max(1, $box);
       $learned = 1;
       $correct = true;
       $correctCount++;
