@@ -11,6 +11,8 @@ $LEITNER_INTERVAL_DAYS = [1 => 0, 2 => 1, 3 => 3, 4 => 7, 5 => 14];
 const DEFAULT_NEW_PER_DAY = 20;
 const DEFAULT_STRICT = 0;
 const DEFAULT_SIM_THRESHOLD = 0.88;
+const DEFAULT_SHOW_DEF_DE = 1;
+const DEFAULT_SHOW_DEF_FA = 1;
 
 // -------------------- UTIL --------------------
 function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
@@ -36,7 +38,9 @@ function initDb(PDO $pdo): void {
       password_hash TEXT NULL,
       created_at TEXT NOT NULL,
       strict_grading INTEGER NOT NULL DEFAULT 0,
-      new_per_day INTEGER NOT NULL DEFAULT 20
+      new_per_day INTEGER NOT NULL DEFAULT 20,
+      show_def_de INTEGER NOT NULL DEFAULT 1,
+      show_def_fa INTEGER NOT NULL DEFAULT 1
     );
   ");
   foreach ([
@@ -44,6 +48,8 @@ function initDb(PDO $pdo): void {
     "ALTER TABLE users ADD COLUMN created_at TEXT NOT NULL DEFAULT ''",
     "ALTER TABLE users ADD COLUMN strict_grading INTEGER NOT NULL DEFAULT 0",
     "ALTER TABLE users ADD COLUMN new_per_day INTEGER NOT NULL DEFAULT 20",
+    "ALTER TABLE users ADD COLUMN show_def_de INTEGER NOT NULL DEFAULT 1",
+    "ALTER TABLE users ADD COLUMN show_def_fa INTEGER NOT NULL DEFAULT 1",
   ] as $sql) { try { $pdo->exec($sql); } catch (Throwable $e) {} }
 
   $pdo->exec("
@@ -135,7 +141,7 @@ function isCorrectAnswer(string $userAnswerRaw, string $expectedRaw, bool $isGer
 // -------------------- AUTH --------------------
 function currentUser(PDO $pdo): ?array {
   if (!isset($_SESSION['user_id'])) return null;
-  $stmt = $pdo->prepare("SELECT id, name, strict_grading, new_per_day FROM users WHERE id = :id");
+  $stmt = $pdo->prepare("SELECT id, name, strict_grading, new_per_day, show_def_de, show_def_fa FROM users WHERE id = :id");
   $stmt->execute([':id' => (int)$_SESSION['user_id']]);
   $u = $stmt->fetch(PDO::FETCH_ASSOC);
   return $u ?: null;
@@ -161,12 +167,13 @@ function registerUser(PDO $pdo, string $name, string $password): array {
   $hash = password_hash($password, PASSWORD_DEFAULT);
   try {
     $stmt = $pdo->prepare("
-      INSERT INTO users(name, password_hash, created_at, strict_grading, new_per_day)
-      VALUES(:n, :h, :c, :s, :npd)
+      INSERT INTO users(name, password_hash, created_at, strict_grading, new_per_day, show_def_de, show_def_fa)
+      VALUES(:n, :h, :c, :s, :npd, :sdd, :sdf)
     ");
     $stmt->execute([
       ':n'=>$name, ':h'=>$hash, ':c'=>nowIso(),
-      ':s'=>DEFAULT_STRICT, ':npd'=>DEFAULT_NEW_PER_DAY
+      ':s'=>DEFAULT_STRICT, ':npd'=>DEFAULT_NEW_PER_DAY,
+      ':sdd'=>DEFAULT_SHOW_DEF_DE, ':sdf'=>DEFAULT_SHOW_DEF_FA
     ]);
     $_SESSION['user_id'] = (int)$pdo->lastInsertId();
     return [true, "Registered and logged in."];
@@ -428,7 +435,7 @@ function last30(PDO $pdo, int $userId): array {
 }
 function exportAll(PDO $pdo, int $userId): void {
   $p=$pdo->prepare("SELECT * FROM progress WHERE user_id=:u"); $p->execute([':u'=>$userId]); $progress=$p->fetchAll(PDO::FETCH_ASSOC);
-  $s=$pdo->prepare("SELECT strict_grading, new_per_day FROM users WHERE id=:u"); $s->execute([':u'=>$userId]); $settings=$s->fetch(PDO::FETCH_ASSOC) ?: [];
+  $s=$pdo->prepare("SELECT strict_grading, new_per_day, show_def_de, show_def_fa FROM users WHERE id=:u"); $s->execute([':u'=>$userId]); $settings=$s->fetch(PDO::FETCH_ASSOC) ?: [];
   $l=$pdo->prepare("SELECT ts, card_id, correct FROM review_log WHERE user_id=:u ORDER BY ts ASC"); $l->execute([':u'=>$userId]); $log=$l->fetchAll(PDO::FETCH_ASSOC);
   header('Content-Type: application/json');
   header('Content-Disposition: attachment; filename="leitner_backup.json"');
@@ -442,7 +449,10 @@ function importAll(PDO $pdo, int $userId, array $payload): array {
     if(isset($payload['settings']) && is_array($payload['settings'])){
       $sg=(int)($payload['settings']['strict_grading'] ?? DEFAULT_STRICT);
       $npd=(int)($payload['settings']['new_per_day'] ?? DEFAULT_NEW_PER_DAY);
-      $pdo->prepare("UPDATE users SET strict_grading=:s, new_per_day=:n WHERE id=:u")->execute([':s'=>$sg,':n'=>$npd,':u'=>$userId]);
+      $sdd=(int)($payload['settings']['show_def_de'] ?? DEFAULT_SHOW_DEF_DE);
+      $sdf=(int)($payload['settings']['show_def_fa'] ?? DEFAULT_SHOW_DEF_FA);
+      $pdo->prepare("UPDATE users SET strict_grading=:s, new_per_day=:n, show_def_de=:sdd, show_def_fa=:sdf WHERE id=:u")
+        ->execute([':s'=>$sg,':n'=>$npd,':sdd'=>$sdd,':sdf'=>$sdf,':u'=>$userId]);
     }
     if(isset($payload['progress']) && is_array($payload['progress'])){
       foreach($payload['progress'] as $r){
@@ -505,6 +515,8 @@ if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='register'){
 $user=currentUser($pdo);
 if(!$user && $page!=='login'){ header('Location: ?page=login'); exit; }
 if($user) ensureProgressRows($pdo,(int)$user['id'], array_keys($cardById));
+$showDefDe=$user ? ((int)($user['show_def_de'] ?? DEFAULT_SHOW_DEF_DE)===1) : true;
+$showDefFa=$user ? ((int)($user['show_def_fa'] ?? DEFAULT_SHOW_DEF_FA)===1) : true;
 
 if($page==='export' && $user){ exportAll($pdo,(int)$user['id']); }
 if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='import_all' && $user){
@@ -519,7 +531,10 @@ if($_SERVER['REQUEST_METHOD']==='POST' && ($_POST['action']??'')==='import_all' 
 if($_SERVER['REQUEST_METHOD']==='POST' && $page==='settings' && $user && ($_POST['action']??'')==='save_settings'){
   $strict=isset($_POST['strict_grading'])?1:0;
   $npd=max(1,min(50,(int)($_POST['new_per_day'] ?? DEFAULT_NEW_PER_DAY)));
-  $pdo->prepare("UPDATE users SET strict_grading=:s, new_per_day=:n WHERE id=:u")->execute([':s'=>$strict,':n'=>$npd,':u'=>(int)$user['id']]);
+  $showDefDe=isset($_POST['show_def_de'])?1:0;
+  $showDefFa=isset($_POST['show_def_fa'])?1:0;
+  $pdo->prepare("UPDATE users SET strict_grading=:s, new_per_day=:n, show_def_de=:sdd, show_def_fa=:sdf WHERE id=:u")
+    ->execute([':s'=>$strict,':n'=>$npd,':sdd'=>$showDefDe,':sdf'=>$showDefFa,':u'=>(int)$user['id']]);
   $message='Settings saved.';
   $user=currentUser($pdo);
 }
@@ -995,6 +1010,13 @@ if($page==='settings'){ ?>
           <span class="muted mini">Lenient accepts small typos & umlaut variants.</span>
         </div>
       </div>
+      <div class="col12">
+        <label class="muted">Definition display</label>
+        <div class="row" style="margin-top:8px;gap:10px;flex-wrap:wrap">
+          <label class="badge"><input type="checkbox" name="show_def_de" <?=((int)($user['show_def_de'] ?? DEFAULT_SHOW_DEF_DE)===1)?'checked':''?>> German</label>
+          <label class="badge"><input type="checkbox" name="show_def_fa" <?=((int)($user['show_def_fa'] ?? DEFAULT_SHOW_DEF_FA)===1)?'checked':''?>> Persian</label>
+        </div>
+      </div>
       <div class="col12"><button class="btn" type="submit">Save</button></div>
     </form>
   </div>
@@ -1039,7 +1061,7 @@ if($page==='learned'){
     $c=$cardById[$cid];
     if($topic!==null && $c['topic']!==$topic) continue;
     if($q!==''){
-      $hay=normalize_common($c['german'].' '.$c['english'].' '.$c['definition']);
+      $hay=normalize_common($c['german'].' '.$c['english'].' '.$c['definition'].' '.($c['definition_fa'] ?? ''));
       if(!str_contains($hay, normalize_common($q))) continue;
     }
     $items[]=['c'=>$c,'p'=>$r];
@@ -1076,7 +1098,8 @@ if($page==='learned'){
       </div>
       <div class="big" style="margin-top:10px"><?=h($c['german'])?></div>
       <div><b>English:</b> <?=h($c['english'])?></div>
-      <div class="muted" style="margin-top:6px"><?=h($c['definition'])?></div>
+      <?php if($showDefDe): ?><div class="muted" style="margin-top:6px"><b>DE:</b> <?=h($c['definition'])?></div><?php endif; ?>
+      <?php if($showDefFa): ?><div class="muted" style="margin-top:6px"><b>FA:</b> <?=h((string)($c['definition_fa'] ?? ''))?></div><?php endif; ?>
       <details style="margin-top:10px"><summary class="badge" style="cursor:pointer;display:inline-block">Example</summary>
         <div class="muted" style="margin-top:8px"><?=h($c['sentence'])?></div>
       </details>
@@ -1154,7 +1177,8 @@ if($page==='study'){
       <button class="btn2" type="button" onclick="toggle('<?=h($ansId)?>')">Show / hide answer</button>
       <div id="<?=h($ansId)?>" style="display:none;margin-top:12px">
         <div><b>English:</b> <?=h($c['english'])?></div>
-        <div style="margin-top:8px"><b>Definition:</b> <?=h($c['definition'])?></div>
+        <?php if($showDefDe): ?><div style="margin-top:8px"><b>Definition (DE):</b> <?=h($c['definition'])?></div><?php endif; ?>
+        <?php if($showDefFa): ?><div style="margin-top:8px"><b>Definition (FA):</b> <?=h((string)($c['definition_fa'] ?? ''))?></div><?php endif; ?>
         <div style="margin-top:8px"><b>Example:</b> <?=h($c['sentence'])?></div>
         <div class="hr"></div>
         <div class="muted mini">Anki-style review</div>
@@ -1241,7 +1265,8 @@ if($page==='quiz'){
       <div class="big" style="margin-top:10px"><?=h($prompt)?></div>
 
       <details style="margin-top:10px"><summary class="badge" style="cursor:pointer;display:inline-block">Hint</summary>
-        <div class="muted" style="margin-top:8px"><?=h($card['definition'])?></div>
+        <?php if($showDefDe): ?><div class="muted" style="margin-top:8px"><b>DE:</b> <?=h($card['definition'])?></div><?php endif; ?>
+        <?php if($showDefFa): ?><div class="muted" style="margin-top:8px"><b>FA:</b> <?=h((string)($card['definition_fa'] ?? ''))?></div><?php endif; ?>
         <div class="muted" style="margin-top:8px"><?=h($card['sentence'])?></div>
       </details>
 
