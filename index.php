@@ -9,13 +9,17 @@ const CARDS_JSON = __DIR__ . '/cards.json';
 $LEITNER_INTERVAL_DAYS = [1 => 0, 2 => 1, 3 => 3, 4 => 7];
 
 function boxLabel(int $box): string {
-  return match ($box) {
-    1 => 'Again',
-    2 => 'Hard',
-    3 => 'Good',
-    4 => 'Easy',
-    default => 'Easy',
-  };
+  switch ($box) {
+    case 1:
+      return 'Again';
+    case 2:
+      return 'Hard';
+    case 3:
+      return 'Good';
+    case 4:
+    default:
+      return 'Easy';
+  }
 }
 
 const DEFAULT_NEW_PER_DAY = 20;
